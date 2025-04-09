@@ -1,0 +1,3129 @@
+conversation_id,conversation
+1,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Mujhe ek romantic(genre) Bollywood movie dekhni hai jo dil ko choo le aur music bhi zabardast ho."",
+      ""agent"": ""Arey wah! Aapke liye perfect movie hai 'Aashiqui 2(movie)'. Iss film mein pyaar ki kahani ke saath-saath gaane bhi dil ko choo lene wale hain. Aditya Roy Kapur(actor) aur Shraddha Kapoor(actor) ki chemistry kamaal ki hai.""
+    },
+    {
+      ""user"": ""'Aashiqui 2(movie)' ke baare mein suna hai, bahut popular thi. Koi aur isi tarah ki movie suggest kar sakte ho?"",
+      ""agent"": ""Bilkul! Agar aapko romantic movies pasand hain toh 'Yeh Jawaani Hai Deewani(movie)' zaroor dekhiye. Iss movie mein Ranbir Kapoor(actor) aur Deepika Padukone(actor) hain. Romantic(genre) moments ke saath-saath(genre) dosti, adventure(genre), aur bahut achhe gaane bhi hain.""
+    },
+    {
+      ""user"": ""Waah! 'Aashiqui 2(movie)' aur 'Yeh Jawaani Hai Deewani(movie)' dono hi behtareen lag rahi hain. Thank you recommendation ke liye!""
+    }
+  ],
+  ""movies"": [""Aashiqui 2"", ""Yeh Jawaani Hai Deewani""]
+}"
+2,"{
+  ""conversation"": [
+    {
+      ""user"": ""Oye! Koi zabardast comedy movie suggest kar, yaar. Aisi jo dekh ke pet dard ho jaaye hasne se."",
+      ""agent"": ""Arre bhai, toh 'Hera Pheri' dekh lo! Isme Paresh Rawal, Akshay Kumar, aur Sunil Shetty ka combo ekdum solid hai. Guarantee hai, hansi ke maare tum lot-pot ho jaoge.""
+    },
+    {
+      ""user"": ""Haan yaar, 'Hera Pheri' toh classic hai! Koi naya maal hai kya market mein?"",
+      ""agent"": ""Accha, naya chahiye? Toh 'Fukrey' series try karo. Pehli wali dekho, phir uske sequels bhi hain. Chutki bhar mein mood fresh ho jayega!""
+    },
+    {
+      ""user"": ""'Fukrey' ka naam suna hai, lekin abhi tak dekhi nahi. Kya scene hai iss movie ka?"",
+      ""agent"": ""'Fukrey' mein Delhi ke char lafange dost hain jo bina mehnat ke paisa kamane ke chakkar mein fas jaate hain. Bholi Punjaban naam ki ek local goon se panga le lete hain. Phir jo hota hai na, woh dekhke tum has-has ke pagal ho jaoge. Richa Chadha ka role ekdum killer hai!""
+    },
+    {
+      ""user"": ""Arre waah! Yeh toh ekdum mast lag raha hai. Thanks bhai, weekend sorted!""
+    }
+  ],
+  ""movies"": [""Hera Pheri"", ""Fukrey""]
+}
+"
+3,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, kuch aisa bata jo thoda darr bhi lagaaye aur hasaaye bhi. 'Stree' jaisi koi movie hai kya?"",
+      ""agent"": ""Arre haan! 'Bhool Bhulaiyaa 2' dekhi hai kya? Kartik Aaryan aur Kiara Advani ki. Ekdum mast blend hai comedy aur horror ka.""
+    },
+    {
+      ""user"": ""Nahi yaar, abhi tak nahi dekhi. Kaisi hai? 'Stree' se compare kar sakte hain?"",
+      ""agent"": ""'Stree' se thodi alag hai, lekin maza zaroor aayega. Isme bhi bhoot-pret ka drama hai, par saath mein Kartik Aaryan ki comedy timing zabardast hai. Ek haunted haveli, ek purani aatma, aur upar se Rajpal Yadav ke punches - perfect combo!""
+    },
+    {
+      ""user"": ""Wah! Yeh toh interesting lag raha hai. Koi aur isi genre ki movie hai?"",
+      ""agent"": ""Haan, agar aur chahiye toh 'Go Goa Gone' try karo. Zombie-comedy hai. Saif Ali Khan, Kunal Khemu, aur Vir Das ne kamaal ka kaam kiya hai. Goa mein zombie outbreak ho jaata hai, aur phir jo masti hoti hai na, dekhne layak hai!""
+    },
+    {
+      ""user"": ""Arre waah! 'Go Goa Gone' ka naam suna tha, par kabhi dekhi nahi. Dono movies kaafi interesting lag rahi hain. Thanks yaar, weekend ka plan ban gaya!""
+    }
+  ],
+  ""movies"": [""Bhool Bhulaiyaa 2"", ""Go Goa Gone""]
+}"
+4,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, koi zabardast adventure movie suggest kar. Aisi jo dekhkar maza aa jaye aur thoda excitement bhi mile."",
+      ""agent"": ""Arre, toh 'Zindagi Na Milegi Dobara' dekho! Road trip, Spain ki khubsurti, aur teen dosto ki masti. Skydiving se lekar bull running tak, har scene mein adventure hai.""
+    },
+    {
+      ""user"": ""Haan yaar, 'ZNMD' toh dekh li. Koi aur nayi adventure film hai?"",
+      ""agent"": ""Accha, toh 'Karwaan' try karo. Irrfan Khan, Dulquer Salmaan, aur Mithila Palkar ki hai. Road trip pe nikalte hain ye log, aur raaste mein kya-kya hota hai, dekhne layak hai!""
+    },
+    {
+      ""user"": ""'Karwaan' ka naam pehli baar sun raha hoon. Kya scene hai iska?"",
+      ""agent"": ""Bhai, 'Karwaan' mein ek ajeeb sa road trip hai. Dulquer ko galti se kisi aur ki laash mil jaati hai, aur woh use sahi jagah pahunchane ke liye nikal padta hai. Raaste mein Irrfan aur Mithila jud jaate hain. Phir jo adventure hota hai na, woh dekhkar tum has bhi loge aur thoda emotional bhi ho jaoge. Irrfan ki acting toh kamaal ki hai hi!""
+    },
+    {
+      ""user"": ""Waah! Yeh toh kaafi interesting lag raha hai. Koi aur bhi hai aise hi?"",
+      ""agent"": ""Haan, ek aur hai - 'Qarib Qarib Singlle'. Irrfan Khan aur Parvathy Thiruvothu ki. Online dating app se mile do anjaan log saath mein trip par nikal padte hain. North India ke alag-alag shehron mein ghoomte hain, aur beech mein bohot saare twist aate hain. Adventure ke saath-saath romance bhi hai!""
+    },
+    {
+      ""user"": ""Arre waah! Dono movies kaafi acchi lag rahi hain. Thanks yaar, ab toh dekhni hi padegi!""
+    }
+  ],
+  ""movies"": [""Zindagi Na Milegi Dobara"", ""Karwaan"", ""Qarib Qarib Singlle""]
+}
+"
+5,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, koi desi time travel movie dekhni hai. Kuch hai kya iss genre mein?"",
+      ""agent"": ""Arre haan! 'Baar Baar Dekho' dekhi hai kya? Sidharth Malhotra aur Katrina Kaif ki. Time travel ka concept bohot interesting tarike se use kiya hai ismein.""
+    },
+    {
+      ""user"": ""Nahi yaar, naam suna hai par dekhi nahi. Kya scene hai iska?"",
+      ""agent"": ""Dekho, 'Baar Baar Dekho' mein Sidharth ka character apni shaadi ke din se future mein jump karta rehta hai. Har jump mein woh apni zindagi ke alag-alag stages dekhta hai. Interesting concept hai, aur time travel ke saath love story bhi hai.""
+    },
+    {
+      ""user"": ""Waah! Yeh toh kaafi hatke lag raha hai. Koi aur bhi hai time travel wali?"",
+      ""agent"": ""Haan, 'Action Replayy' bhi try kar sakte ho. Akshay Kumar aur Aishwarya Rai ki hai. Ismein beta apne parents ki love story theek karne ke liye past mein jaata hai. Retro feel ke saath time travel ka maza milega.""
+    },
+    {
+      ""user"": ""Oh nice! Yeh dono toh dekhni padegi. Aur koi hai kya?"",
+      ""agent"": ""Ek aur hai - 'Love Story 2050'. Priyanka Chopra aur Harman Baweja ki. Yeh thodi hatke hai, kyunki ismein future mein time travel hota hai. 2050 ke Mumbai ki kalpana dikhaayi gayi hai. Special effects acche hain, par story thodi weak hai. Phir bhi, time travel ke shauk ke liye dekh sakte ho.""
+    },
+    {
+      ""user"": ""Wah! Teen options de di tumne. Ab toh weekend sorted hai mera. Thanks yaar!""
+    }
+  ],
+  ""movies"": [""Baar Baar Dekho"", ""Action Replayy"", ""Love Story 2050""]
+}"
+6,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, koi thriller-type ki movie suggest kar. Kuch aisa jo dimag ghuma de."",
+      ""agent"": ""Arre, toh 'Haseen Dillruba' dekho! Taapsee Pannu, Vikrant Massey aur Harshvardhan Rane ki hai. Ekdum solid murder mystery hai.""
+    },
+    {
+      ""user"": ""Accha? 'Haseen Dillruba' ke baare mein suna toh hai, par pata nahi kya scene hai. Bata na zara."",
+      ""agent"": ""Bhai, ismein ek small town love story hai jo murder mystery mein badal jaati hai. Taapsee ka character ek pulp fiction writer se shaadi karke chote se sheher mein aati hai. Phir kya hota hai - pati ka murder ho jaata hai aur saare shak Taapsee par! Ab police ko samjhana ki woh begunah hai ya nahi, yeh dekhna maza aayega.""
+    },
+    {
+      ""user"": ""Waah! Yeh toh kaafi interesting lag raha hai. Koi twist-vist hai kya end mein?"",
+      ""agent"": ""Arre bhai, twist toh hai, par spoiler nahi dunga! Bas itna bata doon ki story mein aisa mod aata hai jo tumhe hila dega. Harshvardhan Rane ka entry bhi game changer hai. Aur haan, beech-beech mein kuch pulp fiction ke references bhi milenge jo story ko aur bhi interesting bana dete hain.""
+    },
+    {
+      ""user"": ""Nice yaar! Ab toh dekhni hi padegi. Critics ne kya kaha iske baare mein?"",
+      ""agent"": ""Critics ki mixed reactions thi. Kuch ne story aur performances ki tareef ki, especially Taapsee aur Vikrant ki. Kuch ko laga ki ending thodi over-the-top hai. Par overall, logon ne ise entertaining maana. Kahaani ka structure aur small town ka setting sabko pasand aaya. Tum khud dekh lo, apna verdict do!""
+    },
+    {
+      ""user"": ""Done bhai! Aaj raat ka plan ban gaya. Thanks for the suggestion!""
+    }
+  ],
+  ""movies"": [""Haseen Dillruba""]
+}
+"
+7,"{
+  ""conversation"": [
+    {
+      ""user"": ""Bhai, kal raat ko TV pe koi movie chal rahi thi. Kuch Vijay Salgaonkar naam ka banda tha usme. Bohot intense thi yaar!"",
+      ""agent"": ""Arre, woh toh 'Drishyam' hogi! Ajay Devgn ki film hai. Kaisi lagi? Poori dekh paaye?""
+    },
+    {
+      ""user"": ""Nahi yaar, beech mein hi TV band karna pada. Par jo dekha, usne toh dimag hila diya. Yeh Vijay ka character kya mast tha!"",
+      ""agent"": ""Haan, Vijay Salgaonkar ka role bohot strong hai. Ek aam aadmi jo apne parivar ko bachane ke liye kuch bhi kar sakta hai. Poori film dekhoge toh mind blown ho jaega!""
+    },
+    {
+      ""user"": ""Accha? Ab toh dekhni padegi poori. Waise, iska koi sequel-vequel bhi hai kya?"",
+      ""agent"": ""Bilkul hai! 'Drishyam 2' aayi thi 2022 mein. Usi Vijay Salgaonkar ki kahani aage badhti hai. 7 saal baad ki story hai.""
+    },
+    {
+      ""user"": ""Oh wow! Usme kya hota hai? Koi naya twist hai kya?"",
+      ""agent"": ""Twist toh bahut saare hain! Pehle wali case phir se khul jaati hai. Vijay ko phir se apni family ko bachana padta hai. Lekin iss baar police zyada smart hai, aur Vijay ke paas pehle se bhi zyada khatarnak plan hai. Tabiyal hila dene wali hai yeh sequel!""
+    },
+    {
+      ""user"": ""Arre baap re! Ab toh dono hi dekhni padegi. Kaunsi wali pehle dekhun?"",
+      ""agent"": ""Pehle 'Drishyam' dekho, phir 'Drishyam 2'. Kyunki sequel mein pehli wali ke events ka recall hota hai. Dono saath mein dekhoge toh maza dugna ho jaega!""
+    },
+    {
+      ""user"": ""Sahi baat hai! Weekend ka plan set ho gaya. Thanks yaar, tune toh kamaal kar diya suggest karke!""
+    }
+  ],
+  ""movies"": [""Drishyam"", ""Drishyam 2""]
+}"
+8,"{
+  ""conversation"": [
+    {
+      ""user"": ""Oye! Koi dhamakedaar action film bata na yaar. Aisi jo screen pe aag laga de!"",
+      ""agent"": ""Abe, 'Jawan' dekh le phir! Shah Rukh Khan ka latest dhamaka hai. Action, thrill, aur King Khan ka swag - sab kuch hai isme.""
+    },
+    {
+      ""user"": ""Arey waah! SRK bhai ka naya avatar? Kya scene hai iska?"",
+      ""agent"": ""Bhai, Shah Rukh double role mein hai. Ek vigilante type character hai jo corruption ke khilaaf ladta hai. Nayanthara aur Vijay Sethupathi bhi hain. Deepika ka cameo bhi hai. South style action hai, par Bollywood flavor ke saath. Ekdum paisa vasool!""
+    },
+    {
+      ""user"": ""Solid lagta hai boss! Zaroor dekhenge.""
+    }
+  ],
+  ""movies"": [""Jawan""]
+}"
+9,"{
+  ""conversation"": [
+    {
+      ""user"": ""Bhai, kuch hatke comedy-drama type ka batana. Kuch jo dimag pe bhi chale."",
+      ""agent"": ""'OMG 2' dekh lo. Akshay Kumar, Pankaj Tripathi aur Yami Gautam hai isme. Pehle wale 'OMG' ka spiritual sequel hai.""
+    },
+    {
+      ""user"": ""Accha? Pehla wala toh mast tha. Iss mein kya hai?"",
+      ""agent"": ""Isme sex education pe focus hai. Pankaj Tripathi ka beta ek controversy mein fas jata hai, aur woh case lad raha hai. Akshay Kumar Lord Shiva ke avatar mein aate hain madad karne. Social message ke saath comedy ka tadka hai.""
+    },
+    {
+      ""user"": ""Waah! Yeh toh dekhni padegi. Kaisi reviews mili?"",
+      ""agent"": ""Mixed reviews thi. Kuch ne topic ko tackle karne ke tarike ki tareef ki, kuch ko laga thoda preachy hai. Par overall, logo ne entertaining maana. Pankaj Tripathi ki acting ki khaas tareef hui.""
+    },
+    {
+      ""user"": ""Sahi hai. Weekend pe dekhta hoon. Thanks yaar!""
+    }
+  ],
+  ""movies"": [""OMG 2""]
+}"
+10,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi nayi women-centric film hai kya? Kuch jo thoda relatable ho."",
+      ""agent"": ""'Sukhee' dekh lo. Shilpa Shetty ki comeback film hai. Drama genre mein hai.""
+    },
+    {
+      ""user"": ""Hmm, Shilpa Shetty waapas aa gayi? Kya story hai?"",
+      ""agent"": ""Haan, isme Shilpa ek housewife hai jo apne college reunion pe jaati hai. Wahan jaake usko realize hota hai ki usne apne sapne bhula diye hain. Phir woh apni identity aur khushi dhoondhne ki journey shuru karti hai.""
+    },
+    {
+      ""user"": ""Interesting lag raha hai. Kaisi rahi audience ki response?"",
+      ""agent"": ""Mixed rahi. Kuch logon ko laga ki story predictable hai, par bahut saare logon ne ise relatable bataya. Shilpa ki acting ki tareef hui. Agar slice-of-life drama pasand hai to give it a try.""
+    },
+    {
+      ""user"": ""Theek hai, dekhne ka mood hai. OTT pe available hai kya?"",
+      ""agent"": ""Haan, abhi OTT pe aa gayi hai. Ek baar dekh lo, ho sakta hai pasand aa jaye. Especially agar aap ya aapki family mein koi homemaker hai to connect kar paoge.""
+    },
+    {
+      ""user"": ""Cool, thanks for the suggestion! Dekhta hoon jald hi.""
+    }
+  ],
+  ""movies"": [""Sukhee""]
+}
+"
+11,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, koi achhi si thriller recommend kar. Kuch jo dimag ghuma de."",
+      ""agent"": ""'Jaane Jaan' dekh lo. Kareena Kapoor Khan, Vijay Varma, aur Jaideep Ahlawat hai isme. Netflix pe hai.""
+    },
+    {
+      ""user"": ""Arey waah! Kya scene hai iska?"",
+      ""agent"": ""Ek murder mystery hai set in Kalimpong. Kareena ek single mom hai jo ek murder case mein fas jaati hai. Vijay cop ka role hai, aur Jaideep ek mysterious teacher hai. Sujoy Ghosh ne direct kiya hai, toh twist kaafi honge.""
+    },
+    {
+      ""user"": ""Sahi hai! Kaisi reviews mili?"",
+      ""agent"": ""Reviews mostly positive rahi. Acting, especially Jaideep ki, bohot tareef hui. Kuch log ending se thoda disappointed the, par overall suspense maintain rehta hai poori film mein.""
+    },
+    {
+      ""user"": ""Nice! Weekend pe pakka dekhta hoon. Thanks!""
+    }
+  ],
+  ""movies"": [""Jaane Jaan""]
+}"
+12,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi achhi si romantic film bata. Family ke saath baith ke dekh sakun."",
+      ""agent"": ""'Rocky Aur Rani Kii Prem Kahaani' perfect rahegi. Karan Johar ki latest hai.""
+    },
+    {
+      ""user"": ""Accha? Star cast kaun hai?"",
+      ""agent"": ""Ranveer Singh aur Alia Bhatt lead mein hain. Dharmendra, Jaya Bachchan, aur Shabana Azmi bhi hain. Do alag backgrounds ki families ki kahani hai - ek Punjabi, ek Bengali.""
+    },
+    {
+      ""user"": ""Interesting! Story kya hai?"",
+      ""agent"": ""Rocky aur Rani ki love story hai, par families ke beech cultural differences hain. Dono 3 mahine ke liye ek dusre ke ghar mein rehte hain taki families ko samajh sakein. Romance, drama, comedy sab kuch hai. Family values pe bhi focus hai.""
+    },
+    {
+      ""user"": ""Sahi hai! Reviews kaisi rahi?"",
+      ""agent"": ""Mostly positive. Ranveer-Alia ki chemistry, songs, aur overall entertainment value ki tareef hui. Kuch log ise typical Bollywood drama kehte hain, par family audience ne kaafi pasand kiya.""
+    },
+    {
+      ""user"": ""Sounds good! Isi weekend dekhenge sab milkar. Thanks yaar!""
+    }
+  ],
+  ""movies"": [""Rocky Aur Rani Kii Prem Kahaani""]
+}"
+13,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi intense courtroom drama suggest kar. Real story based ho toh aur acha."",
+      ""agent"": ""'Sirf Ek Bandaa Kaafi Hai' dekh lo. Manoj Bajpayee ki hai, 2023 ki.""
+    },
+    {
+      ""user"": ""Oh, kya case hai isme?"",
+      ""agent"": ""Ek lawyer ek powerful godman ke against case ladata hai. Child sexual abuse ka case hai. Manoj ki acting zabardast hai. Kaafi hard-hitting hai.""
+    },
+    {
+      ""user"": ""Sounds powerful. OTT pe hai?"",
+      ""agent"": ""Haan, 'Sirf Ek Bandaa Kaafi Hai' OTT par available hai. Ek baar zaroor dekhna!""
+    }
+  ],
+  ""movies"": [""Sirf Ek Bandaa Kaafi Hai""]
+}"
+14,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, SRK ki latest kaunsi hai? Miss toh nahi ki?"",
+      ""agent"": ""'Dunki' dekhi? December 2023 mein aayi thi.""
+    },
+    {
+      ""user"": ""Nahi yaar. Kaisi hai?"",
+      ""agent"": ""Comedy-drama hai. Illegal immigration pe based hai. Rajkumar Hirani ne direct ki hai. SRK, Taapsee Pannu, Vicky Kaushal hain. Emotional bhi hai, funny bhi.""
+    },
+    {
+      ""user"": ""Accha, dekhni padegi fir. Thanks!""
+    }
+  ],
+  ""movies"": [""Dunki""]
+}"
+15,"{
+  ""conversation"": [
+    {
+      ""user"": ""Kuch creepy sa dekhna hai. Koi hidden gem bata horror mein."",
+      ""agent"": ""'Tumbbad' try kar. Period horror hai, 2018 ki.""
+    },
+    {
+      ""user"": ""Never heard of it. Kya hai isme?"",
+      ""agent"": ""19th century Maharashtra mein set hai. Ek cursed treasure aur greed ki story hai. Visuals ekdum mind-blowing hain. Slow burn horror hai, par ending tak grip rakhti hai.""
+    },
+    {
+      ""user"": ""Sounds intriguing! Streaming kahan milegi?"",
+      ""agent"": ""'Tumbbad' Amazon Prime Video par available hai. Wahan jaake dekh sakte ho.""
+    }
+  ],
+  ""movies"": [""Tumbbad""]
+}"
+16,"{
+  ""conversation"": [
+    {
+      ""user"": ""Bro, koi motivational type ki movie chahiye. Kuch jo josh bharde!"",
+      ""agent"": ""'Dangal' dekh le fir. Aamir Khan wali. Sports drama hai, based on Phogat sisters ki real story.""
+    },
+    {
+      ""user"": ""Accha haan, suna hai. Wrestling wali hai na?"",
+      ""agent"": ""Haan, Aamir ek wrestler hai jo apni betiyon ko champion banata hai. Gender stereotypes todti hai film. Performance, story, sab top-notch hai.""
+    },
+    {
+      ""user"": ""Nice yaar! Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Dangal""]
+}"
+17,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, ek film bata jo dekh ke meme game strong ho jaye."",
+      ""agent"": ""'Gangs of Wasseypur' se better kuch nahi! Meme ka khazana hai woh film.""
+    },
+    {
+      ""user"": ""Sachi? Itne memes hain kya usme?"",
+      ""agent"": ""Bhai, kya batau! 'Beta tumse na ho payega' se lekar 'Baap ka, dada ka, bhai ka, sabka badla lega re tera Faizal' tak. Har dialogue meme material hai.""
+    },
+    {
+      ""user"": ""Haha! Woh 'Keh ke lenge' wala bhi isi movie se hai na?"",
+      ""agent"": ""Bilkul! Nawazuddin ka woh dialogue toh legend hai. Aur haan, 'Bahut khoob' bhool mat jana. Anurag Kashyap ne meme creators ko free ka content de diya is movie se.""
+    },
+    {
+      ""user"": ""Lol! Ab toh dekhni hi padegi. Meme game strong karne ke liye bhi aur movie enjoy karne ke liye bhi."",
+      ""agent"": ""Haan, par yaad rakhna - pehle movie enjoy karo, memes baad mein. Kyunki 'Tumse na ho payega' nahi bolna padega mujhe!""
+    },
+    {
+      ""user"": ""Haha! Done deal. Weekend sorted!""
+    }
+  ],
+  ""movies"": [""Gangs of Wasseypur""]
+}
+"
+18,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi spy thriller hai kya? Kuch naya sa?"",
+      ""agent"": ""Haan, 'Khufiya' dekh lo. Tabu aur Ali Fazal ki hai, 2023 ki.""
+    },
+    {
+      ""user"": ""Accha, kya story hai?"",
+      ""agent"": ""RAW agent ki kahani hai. Double agents, betrayal, sab kuch hai. Vishal Bhardwaj ne direct ki hai, toh cinematography top-notch hai.""
+    },
+    {
+      ""user"": ""Sahi hai! Dekhni padegi fir.""
+    }
+  ],
+  ""movies"": [""Khufiya""]
+}
+"
+19,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, koi intense action film bata. Jo thodi dark ho."",
+      ""agent"": ""'Animal' dekh lo. Ranbir Kapoor ki latest hai.""
+    },
+    {
+      ""user"": ""Accha? Kaisi hai?"",
+      ""agent"": ""Baap-bete ke rishte pe based hai, par bohot violent hai. Ranbir ka naya avatar hai. Bobby Deol bhi hai villain ke role mein. Sandeep Reddy Vanga ki direction hai.""
+    },
+    {
+      ""user"": ""Sounds intense! Reviews kaisi rahi?"",
+      ""agent"": ""Mixed rahi. Kuch log ise masterpiece keh rahe hain, kuch ko violence zyada laga. Par box office pe superhit rahi.""
+    }
+  ],
+  ""movies"": [""Animal""]
+}"
+20,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi light-hearted romantic comedy suggest kar yaar."",
+      ""agent"": ""'Miss Shetty Mr Polishetty' try karo. 2023 ki hai, Anushka Shetty aur Naveen Polishetty ki.""
+    },
+    {
+      ""user"": ""Oh, plot kya hai?"",
+      ""agent"": ""Ek chef aur ek stand-up comedian ki love story hai. Cultural differences, career challenges, sab hai isme. Fresh pairing hai, aur comedy timing achi hai dono ki.""
+    },
+    {
+      ""user"": ""Nice! Sounds fun. Thanks for the suggestion!""
+    }
+  ],
+  ""movies"": [""Miss Shetty Mr Polishetty""]
+}"
+21,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi romantic drama bata jo thoda hatke ho."",
+      ""agent"": ""'Bawaal' dekh lo. Varun Dhawan aur Janhvi Kapoor ki hai.""
+    },
+    {
+      ""user"": ""Hmm, isme kya special hai?"",
+      ""agent"": ""Ek couple ki story hai jo Europe tour pe jaate hain. World War II ke sites visit karte hain. Love story ke saath historical angle bhi hai. Nitesh Tiwari ne direct ki hai.""
+    },
+    {
+      ""user"": ""Interesting concept hai. Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Bawaal""]
+}"
+22,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi desi superhero type ki film hai?"",
+      ""agent"": ""'Brahmastra' dekhi hai? Ranbir-Alia ki.""
+    },
+    {
+      ""user"": ""Nahi yaar, kaisi hai?"",
+      ""agent"": ""Indian mythology pe based superhero film hai. VFX kaafi ache hain. Ranbir ko fire powers milte hain. Alia, Amitabh Bachchan, SRK sab hain isme. Trilogy ka first part hai.""
+    },
+    {
+      ""user"": ""Wow, sounds massive! Jarur dekhenge.""
+    }
+  ],
+  ""movies"": [""Brahmastra Part One: Shiva""]
+}"
+23,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi sports drama hai kya recent? Cricket ke alawa kuch."",
+      ""agent"": ""'Ghoomer' dekh lo. Abhishek Bachchan aur Saiyami Kher ki hai.""
+    },
+    {
+      ""user"": ""Accha, kis sport pe hai?"",
+      ""agent"": ""Cricket pe hi hai, par differently-abled cricketer ki story hai. Saiyami ek para-cricketer ka role play karti hai, Abhishek uska coach hai. R Balki ne direct kiya hai.""
+    },
+    {
+      ""user"": ""Oh, that's unique! Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Ghoomer""]
+}"
+24,"{
+  ""conversation"": [
+    {
+      ""user"": ""Yaar, koi mast action thriller bata. Salman ki latest kaunsi hai?"",
+      ""agent"": ""Salman ki latest 'Tiger 3' hai. Spy thriller hai.""
+    },
+    {
+      ""user"": ""Oh haan! Kaisi hai?"",
+      ""agent"": ""Mast hai! Tiger aur Zoya ka mission continue hota hai. Katrina Kaif bhi hai. Emraan Hashmi villain hai. Action scenes zabardast hain, especially climax.""
+    },
+    {
+      ""user"": ""Sahi hai! Weekend pe dekhta hoon. Thanks!""
+    }
+  ],
+  ""movies"": [""Tiger 3""]
+}"
+25,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi fun romantic comedy suggest kar yaar. Date night ke liye perfect ho."",
+      ""agent"": ""'Tu Jhoothi Main Makkaar' dekh lo. Ranbir Kapoor aur Shraddha Kapoor ki hai.""
+    },
+    {
+      ""user"": ""Accha, isme kya twist hai?"",
+      ""agent"": ""Dono breakup experts hain jo khud pyaar mein pad jaate hain. Comedy timing achi hai dono ki. Luv Ranjan ne direct kiya hai, toh masti aur romance ka perfect blend hai.""
+    },
+    {
+      ""user"": ""Nice! Sounds perfect for a fun night. Thanks!""
+    }
+  ],
+  ""movies"": [""Tu Jhoothi Main Makkaar""]
+}"
+26,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi Bollywood film jo intense drama ho."",
+      ""agent"": ""'Sardar Udham' dekh lo. Vicky Kaushal ki film hai, 2021 ki.""
+    },
+    {
+      ""user"": ""Accha, plot kya hai?"",
+      ""agent"": ""Sardar Udham Singh ki real-life story hai, jo Jallianwala Bagh massacre ke baad revenge ke liye ladai karte hain. Vicky Kaushal ki performance outstanding hai.""
+    },
+    {
+      ""user"": ""Sounds powerful. Thanks!""
+    }
+  ],
+  ""movies"": [""Sardar Udham""]
+}"
+27,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi recent Bollywood film batao jo mind-bending ho."",
+      ""agent"": ""'The Night Manager' dekh lo. Aditya Roy Kapur aur Anil Kapoor ki film hai, 2023 ki.""
+    },
+    {
+      ""user"": ""Accha, kya story hai?"",
+      ""agent"": ""Ek high-octane thriller hai jisme Aditya Roy Kapur ek undercover agent ka role play karte hain aur Anil Kapoor ek arms dealer hain. Lots of twists and turns!""
+    },
+    {
+      ""user"": ""Sounds gripping! Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""The Night Manager""]
+}
+"
+28,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi Bollywood film jo ek inspiring story ho."",
+      ""agent"": ""'Chakde! India' dekh lo. Shah Rukh Khan ki film hai, 2007 ki.""
+    },
+    {
+      ""user"": ""Yeh toh classic hai! Plot kya hai?"",
+      ""agent"": ""Shah Rukh Khan ek hockey coach ka role play karte hain jo Indian women's hockey team ko train karte hain aur unko World Cup jeetne mein madad karte hain. Inspirational aur motivational hai.""
+    },
+    {
+      ""user"": ""Sounds great! Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Chakde! India""]
+}"
+29,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi recent Bollywood horror film batao."",
+      ""agent"": ""'Bhoot: Part One – The Haunted Ship' dekho. Vicky Kaushal ki film hai, 2020 ki.""
+    },
+    {
+      ""user"": ""Accha, story kya hai?"",
+      ""agent"": ""Ek haunted ship ki kahani hai jisme Vicky Kaushal ek officer ka role play karte hain jo ship ko investigate karte hain. Horror aur suspense ka mix hai.""
+    },
+    {
+      ""user"": ""Sounds spooky! Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Bhoot: Part One – The Haunted Ship""]
+}"
+30,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi Bollywood action film chahiye jo latest ho."",
+      ""agent"": ""'Ek Villain Returns' dekho. John Abraham aur Arjun Kapoor ki film hai, 2022 ki.""
+    },
+    {
+      ""user"": ""Kaisi hai?"",
+      ""agent"": ""Ek intense action thriller hai jisme John Abraham aur Arjun Kapoor villain roles mein hain. Lots of action, drama aur suspense.""
+    },
+    {
+      ""user"": ""Sounds thrilling! Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Ek Villain Returns""]
+}"
+31,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi Bollywood film chahiye jo intense aur drama se bhari ho."",
+      ""agent"": ""'Kashmir Files' dekh lo. Vivek Agnihotri ki film hai, 2022 ki.""
+    },
+    {
+      ""user"": ""Kaisi hai?"",
+      ""agent"": ""Kashmiri Pandits ke exodus ke baare mein hai. Intense aur emotionally charged film hai, jo real-life incidents ko depict karti hai.""
+    },
+    {
+      ""user"": ""Sounds powerful. Dekhni padegi.""
+    }
+  ],
+  ""movies"": [""Kashmir Files""]
+}"
+32,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi Bollywood film chahiye jo thriller aur drama ka perfect mix ho."",
+      ""agent"": ""'Raat Akeli Hai' dekho. Nawazuddin Siddiqui aur Radhika Apte ki film hai, 2020 ki.""
+    },
+    {
+      ""user"": ""Accha, story kya hai?"",
+      ""agent"": ""Ek murder mystery hai jisme Nawazuddin ek cop ka role play karte hain jo ek wealthy family ke case ko solve karne ki koshish karte hain. Suspense aur drama se bharpoor hai.""
+    },
+    {
+      ""user"": ""Sounds engaging. Thanks!""
+    }
+  ],
+  ""movies"": [""Raat Akeli Hai""]
+}
+"
+33,"{
+  ""conversation"": [
+    {
+      ""user"": ""Koi Bollywood film jo drama aur romance ka perfect mix ho."",
+      ""agent"": ""'Dil Dhadakne Do' dekho. Ranveer Singh aur Priyanka Chopra ki film hai, 2015 ki.""
+    },
+    {
+      ""user"": ""Kya hai story?"",
+      ""agent"": ""Ek luxury cruise ke journey ko explore karta hai jahan ek family apni problems aur relationships ko deal karti hai. Drama aur romance ka acha blend hai.""
+    },
+    {
+      ""user"": ""Sounds like a fun watch. Thanks!""
+    }
+  ],
+  ""movies"": [""Dil Dhadakne Do""]
+}
+"
+34,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste sir, kya main aapse kuch baat kar sakta hoon?"",
+      ""agent"": ""Haan beta, bilkul. Tum kaise ho? Kuch pareshani lag rahi hai tumhari awaaz mein.""
+    },
+    {
+      ""user"": ""Ji sir, aajkal kuch udaas sa mehsoos kar raha hoon. Zindagi mein kuch khaas nahi ho raha."",
+      ""agent"": ""Beta, yeh samay ki baat hai. Kabhi kabhi aisa hota hai jab hum apne aap ko khoye hue mehsoos karte hain. Kya tum mujhe aur kuch bata sakte ho ki kya soch rahe ho?""
+    },
+    {
+      ""user"": ""Sir, bas lagta hai ki main apni zindagi mein koi bada badlaav chaahta hoon, par samajh nahi aa raha kya karoon."",
+      ""agent"": ""Main tumhari bhaavnaon ko samajh sakta hoon. Yeh ek aam si baat hai jise bahut log mehsoos karte hain. Tumne kabhi 'Swades' film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi sir, maine nahi dekhi. Yeh kis baare mein hai?"",
+      ""agent"": ""Beta, yeh ek bahut hi prernādāyak film hai. Isme Shah Rukh Khan ek successful NRI hain jo apne desh wapas aate hain aur apne gaon ke logon ki madad karte hain. Yeh film dikhati hai ki kaise ek vyakti apne jeevan mein arth dhoondhta hai aur doosron ki seva karke khud ko pura mehsoos karta hai.""
+    },
+    {
+      ""user"": ""Yeh to bahut achha concept lagta hai sir. Kya aap sochte hain ki isse mujhe kuch prerna mil sakti hai?"",
+      ""agent"": ""Haan beta, mujhe vishwas hai ki yeh tumhe zaroor prerna degi. Kabhi kabhi, hum apne aas-paas ke logon ki madad karke, ya kisi nayi chunauti ko sweekar karke, apne jeevan mein naya josh pa sakte hain. Is film se tumhe kuch naye vichar mil sakte hain.""
+    },
+    {
+      ""user"": ""Aapki baat sunkar achha laga sir. Main zaroor yeh film dekhne ki koshish karoonga."",
+      ""agent"": ""Bahut achha beta. Film dekhne ke baad, agar tum chaaho to hum phir se baat kar sakte hain. Yaad rakhna, har mushkil samay ek avsar hota hai kuch naya seekhne ka. Tum bahut achhe ho aur mujhe vishwas hai ki tum apna raasta zaroor dhundh loge.""
+    }
+  ],
+  ""movies"": [""Swades""]
+}
+"
+35,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaskar sir, kya aap thoda samay de sakte hain? Mujhe aapse kuch baat karni thi."",
+      ""agent"": ""Haan beta, zaroor. Tumhari awaaz mein kuch pareshani lag rahi hai. Sab theek to hai?""
+    },
+    {
+      ""user"": ""Sir, main apne padhai ko lekar bahut chintit hoon. Lagta hai ki main apne sapnon ko pura nahi kar paunga."",
+      ""agent"": ""Beta, yeh bahut sahas ki baat hai ki tum apni chinta baant rahe ho. Batao, aisa kya hua jo tumhe itna pareshan kar raha hai?""
+    },
+    {
+      ""user"": ""Sir, main IIT ki taiyari kar raha hoon, par lagta hai ki mere paas utne resources nahi hain jitne dusre students ke paas hain. Kabhi kabhi lagta hai ki main peeche reh jaunga."",
+      ""agent"": ""Main tumhari peeda samajh sakta hoon beta. Par yaad rakho, safalta sirf resources par nahi, balki mehnat aur dridh nishchay par bhi nirbhar karti hai. Tumne kabhi 'Super 30' film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi sir, maine nahi dekhi. Yeh kis baare mein hai?"",
+      ""agent"": ""Super 30 ek sacchi kahani par adharit film hai. Yeh Anand Kumar ke baare mein hai, jo ek gareeb background se aaye mathematician hain. Unhone apni mushkilon ke bawajood na sirf khud IIT clear kiya, balki baad mein unhone 30 gareeb bacchon ko muft mein padhaya aur unhe bhi IIT mein pahunchaya.""
+    },
+    {
+      ""user"": ""Yeh to bahut prerna dene wali kahani lagti hai sir. Kya aapko lagta hai ki isse mujhe kuch madad milegi?"",
+      ""agent"": ""Bilkul beta. Yeh film dikhati hai ki agar aap apne lakshya ke prati samarpit hain, to koi bhi baadha aapko rok nahi sakti. Hrithik Roshan ne Anand Kumar ka kirdar bahut achhe se nibhaya hai. Film mein dikhaya gaya hai ki kaise limited resources ke saath bhi, sahi marg-darshan aur mehnat se, koi bhi apne sapne pura kar sakta hai.""
+    },
+    {
+      ""user"": ""Aapki baat sunkar mujhe himmat mili hai sir. Main zaroor yeh film dekhunga."",
+      ""agent"": ""Bahut achha beta. Film dekhne ke baad, agar tum chaaho to hum phir se baat kar sakte hain. Yaad rakhna, har mushkil ek chunauti hai, aur har chunauti tumhe aur mazboot banati hai. Mujhe pura vishwas hai ki tum apne lakshya ko zaroor prapt karoge.""
+    },
+    {
+      ""user"": ""Aapka bahut bahut dhanyavaad sir. Aapse baat karke mujhe bahut achha laga."",
+      ""agent"": ""Koi baat nahi beta. Kabhi bhi zaroorat pade to mujhse baat kar sakte ho. All the best tumhari padhai ke liye!""
+    }
+  ],
+  ""movies"": [""Super 30""]
+}"
+36,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste, kya main aapse kuch baat kar sakta hoon?"",
+      ""agent"": ""Bilkul! Main aapki kya madad kar sakta hoon? Pehle, kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Ji, mera naam Aditya hai."",
+      ""agent"": ""Aditya ji, aapse milkar khushi hui. Aap kaise hain? Aajkal aap apne khali samay mein kya karte hain?""
+    },
+    {
+      ""user"": ""Main theek hoon, par thoda bored feel kar raha hoon. Kuch naya dekhne ka mann kar raha hai."",
+      ""agent"": ""Samajh sakta hoon Aditya ji. Naye anubhav hamesha refreshing hote hain. Aapko kis tarah ki filmein pasand hain? Koi khaas genre ya actor?""
+    },
+    {
+      ""user"": ""Mujhe sci-fi aur action pasand hai. Kuch aisa jo future mein set ho."",
+      ""agent"": ""Acha, yeh to bahut interesting hai! Aapne sahi samay pe pucha. Mujhe lagta hai ki aapko 'Kalki 2898-AD' pasand aa sakti hai. Yeh ek upcoming sci-fi film hai jo future mein set hai. Kya aapne iske bare mein suna hai?""
+    },
+    {
+      ""user"": ""Nahi, maine to iska naam bhi pehli baar suna hai. Isme kya khaas hai?"",
+      ""agent"": ""Aditya ji, yeh film bahut hi ambitious project hai. Iska set up 2898 AD mein hai, yani ki bahut door future mein. Prabhas, Deepika Padukone, Amitabh Bachchan jaise bade stars isme hain. Visuals itne stunning hain ki aap hairan reh jaayenge.""
+    },
+    {
+      ""user"": ""Wow, yeh to kaafi interesting lag raha hai. Par kya iska koi trailer ya teaser aaya hai?"",
+      ""agent"": ""Ji haan, iska ek teaser release hua hai. Usme dikhaya gaya futuristic world aur characters ke looks ne sabko hairaan kar diya hai. Specially Amitabh Bachchan ka avatar to bilkul alag hi hai. Aap dekhenge to samajh jaayenge ki yeh film kitni grand scale par bani hai.""
+    },
+    {
+      ""user"": ""Aapne to mera interest jaga diya hai. Main zaroor iska teaser dekhunga. Release kab hogi yeh film?"",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh pasand aa rahi hai. Film 2024 mein release hone wali hai. Tab tak aap teaser dekh sakte hain aur film ke updates follow kar sakte hain. Agar aap chahen to main aapko kuch aur isi tarah ki sci-fi films suggest kar sakta hoon.""
+    },
+    {
+      ""user"": ""Ji, zaroor. Aapka bahut dhanyavaad. Aapse baat karke acha laga."",
+      ""agent"": ""Mujhe bhi aapse baat karke achha laga Aditya ji. Ummeed karta hoon ki 'Kalki 2898-AD' aapko pasand aayegi. Agar aur kuch jaanna chahen to mujhse zaroor poochen. Take care!""
+    }
+  ],
+  ""movies"": [""Kalki 2898-AD""]
+}"
+37,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste, kya aap meri kuch madad kar sakte hain?"",
+      ""agent"": ""Zaroor! Main aapki kya madad kar sakta hoon? Pehle, kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Ji, mera naam Priya hai."",
+      ""agent"": ""Priya ji, aapse milkar accha laga. Kya aap mujhe bata sakti hain ki aajkal aap kaisi mehsoos kar rahi hain? Koi chinta ya pareshani hai?""
+    },
+    {
+      ""user"": ""Haan, main apne bete ko lekar thodi chintit hoon. Woh examinations ke pressure se guzar raha hai."",
+      ""agent"": ""Main aapki chinta samajh sakti hoon Priya ji. Bacchon par exam ka pressure bahut zyada hota hai. Kya aap mujhe aur kuch bata sakti hain ki aapka beta kaise cope kar raha hai?""
+    },
+    {
+      ""user"": ""Woh bahut tense rehta hai aur khud ko failures se compare karta rehta hai. Main nahi jaanti kaise uski madad karoon."",
+      ""agent"": ""Priya ji, yeh ek common problem hai jisse bahut se parents aur bacche jujhte hain. Aapne kabhi 'Chhichhore' film dekhi hai? Main sochti hoon ki yeh film aapke aur aapke bete ke liye bahut helpful ho sakti hai.""
+    },
+    {
+      ""user"": ""Maine iska naam suna hai, par dekhi nahi. Yeh kis baare mein hai?"",
+      ""agent"": ""Chhichhore ek bahut hi heartwarming film hai jo college life aur uske baad ki zindagi ke baare mein hai. Isme Sushant Singh Rajput aur Shraddha Kapoor hain. Film dikhati hai ki zindagi mein sirf success ya failure nahi hota, balki journey matter karti hai.""
+    },
+    {
+      ""user"": ""Yeh to kaafi relevant lagti hai humare situation ke liye. Kya aapko lagta hai ki isse mere bete ko kuch madad milegi?"",
+      ""agent"": ""Bilkul Priya ji. Film mein dikhaya gaya hai ki kaise ek pita apne bete ko life lessons sikhata hai, jab beta exam pressure se guzar raha hota hai. Yeh film aapke bete ko dikhayegi ki failure end nahi hoti, balki ek new beginning ho sakti hai.""
+    },
+    {
+      ""user"": ""Yeh sach mein bahut achha idea lag raha hai. Main zaroor apne bete ke saath yeh film dekhungi."",
+      ""agent"": ""Bahut accha Priya ji. Mujhe yakeen hai ki yeh film aapke aur aapke bete ke liye ek positive experience hogi. Film dekhne ke baad, aap dono iske baare mein baat kar sakte hain. Yaad rakhiye, communication bahut zaroori hai.""
+    },
+    {
+      ""user"": ""Aapka bahut bahut shukriya. Aapne mujhe ek naya perspective diya hai."",
+      ""agent"": ""Aapka swagat hai Priya ji. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko aur kisi madad ki zaroorat ho, to mujhse beshak poochiye. Main ummeed karti hoon ki aap aur aapka beta jald hi is pressure se bahar aayenge. Take care!""
+    }
+  ],
+  ""movies"": [""Chhichhore""]
+}"
+38,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste, kya main aapse thodi madad le sakta hoon?"",
+      ""agent"": ""Namaste! Bilkul, main aapki kis tarah se madad kar sakta hoon? Pehle aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rajat hai."",
+      ""agent"": ""Rajat ji, aapse milkar khushi hui. Aap kaise hain? Aajkal aap kis tarah ki filmein dekh rahe hain?""
+    },
+    {
+      ""user"": ""Main theek hoon. Filmon ka shauk to hai, par aajkal kuch meaningful dekhne ka mann hai, jo thoda inspiring ho."",
+      ""agent"": ""Samajh sakta hoon, Rajat ji. Aajkal kuch aisi filmein dekhna jo humein inspire kare, sach mein zaroori hai. Aapko kis type ki stories pasand aati hain? Historical ya real-life events pe based kuch dekhna pasand karenge?""
+    },
+    {
+      ""user"": ""Haan, real-life events pe based kuch dekhne ka mann hai."",
+      ""agent"": ""Aapko 'Sardar Udham' pasand aayegi. Yeh film freedom fighter Sardar Udham Singh ke upar hai, jinhone Jallianwala Bagh massacre ka badla liya tha. Vicky Kaushal ne outstanding performance di hai.""
+    },
+    {
+      ""user"": ""Yeh to bahut inspiring lag rahi hai. Kya reviews acche hain?"",
+      ""agent"": ""Bilkul! Critics aur audience dono ne is film ko bohot pasand kiya hai. Direction, cinematography, aur Vicky Kaushal ki acting ki bohot tareef hui hai. Yeh film aapko deeply move karegi.""
+    },
+    {
+      ""user"": ""Main zaroor dekhunga. Shukriya aapka!"",
+      ""agent"": ""Aapka swagat hai, Rajat ji. Mujhe khushi hai ki aapko yeh recommendation pasand aayi. Agar aapko aur bhi recommendations chahiye to main hamesha yahan hoon. Enjoy the film!""
+    }
+  ],
+  ""movies"": [""Sardar Udham""]
+}"
+39,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Kya main aapse thoda suggestion le sakta hoon?"",
+      ""agent"": ""Hello! Bilkul, aapka naam jaan sakta hoon? Main aapki kis tarah se madad kar sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Ankit hai."",
+      ""agent"": ""Ankit ji, aapse milkar achha laga. Aaj aap kis tarah ki film dekhne ka soch rahe hain?""
+    },
+    {
+      ""user"": ""Mujhe action film dekhni hai, par kuch intense aur powerful storyline wali."",
+      ""agent"": ""Aapke liye 'KGF: Chapter 1' perfect rahegi. Yash ne isme Rocky ka role play kiya hai, jo ek underdog se kingpin banne ki kahani hai. Action sequences aur storyline dono hi zabardast hain.""
+    },
+    {
+      ""user"": ""Wow, sounds intense! Kya is film ko acche reviews mile hain?"",
+      ""agent"": ""Ji haan, film ne kaafi buzz create kiya tha. Audience aur critics ne is film ki tareef ki hai, especially Yash ki performance aur film ke grand scale ko. Yeh film aapko edge-of-the-seat excitement degi.""
+    },
+    {
+      ""user"": ""Sahi hai! Main zaroor dekhunga. Shukriya!"",
+      ""agent"": ""Aapka swagat hai, Ankit ji! Aapko yeh film zaroor pasand aayegi. Agar aur bhi suggestions chahiye to aap bina jhijhak puchh sakte hain.""
+    }
+  ],
+  ""movies"": [""KGF: Chapter 1""]
+}"
+40,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Aaj kuch dhamakedar dekhne ka mann hai. Koi suggestion doge?"",
+      ""agent"": ""Hi! Zaroor! Pehle aapka naam jaan sakta hoon? Phir main aapko best suggestion de paunga.""
+    },
+    {
+      ""user"": ""Mera naam Mehul hai."",
+      ""agent"": ""Mehul ji, aapse milkar accha laga. Aap kis tarah ki film dekhna pasand karenge? Koi specific genre ya phir koi sequel?""
+    },
+    {
+      ""user"": ""Mujhe action aur drama dono chahiye. Aur haan, agar koi sequel ho to aur bhi maza aayega."",
+      ""agent"": ""Toh aapke liye 'KGF: Chapter 2' perfect rahegi. Rocky Bhai ki journey ka agla chapter hai yeh. Is film mein action aur drama ka level aur bhi upar hai. Sanjay Dutt aur Raveena Tandon bhi naye characters mein hain.""
+    },
+    {
+      ""user"": ""Wah, yeh to amazing lag raha hai! Kya iski bhi pehli film jaise hype hai?"",
+      ""agent"": ""Bilkul! 'KGF: Chapter 2' ne box office pe records tod diye hain. Film ki scale, action, aur performances ko logon ne bohot pasand kiya hai. Yeh sequel pehli film se bhi zyada impactful hai.""
+    },
+    {
+      ""user"": ""Yeh to dekhni hi padegi! Bahut bahut shukriya!"",
+      ""agent"": ""Mehul ji, aapka swagat hai! Mujhe pura vishwas hai ki aapko yeh film bahut pasand aayegi. Agar aapko aur suggestions chahiye to main hamesha available hoon. Enjoy the movie!""
+    }
+  ],
+  ""movies"": [""KGF: Chapter 2""]
+}"
+41,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi, kya main aapse thoda suggestion le sakta hoon?"",
+      ""agent"": ""Hello! Bilkul, pehle aapka naam jaan sakta hoon? Phir main aapko behtareen suggestion de sakta hoon.""
+    },
+    {
+      ""user"": ""Mera naam Rohit hai."",
+      ""agent"": ""Rohit ji, aapse milkar khushi hui. Aaj aap kis tarah ki film dekhne ka soch rahe hain?""
+    },
+    {
+      ""user"": ""Mujhe kuch comedy dekhni hai, par jo time-tested ho, har baar dekhne pe hasne ka mann kare."",
+      ""agent"": ""Aapke liye 'Phir Hera Pheri' perfect rahegi. Akshay Kumar, Paresh Rawal, aur Sunil Shetty ki trio is film mein waise hi dhamal machati hai jaise pehli film mein kiya tha. Har scene mein aapko hasne ka bahana milega.""
+    },
+    {
+      ""user"": ""Haan, suna hai yeh film iconic hai. Par kya yeh pehli film se acchi hai?"",
+      ""agent"": ""Bilkul! 'Phir Hera Pheri' ne apni pehli film ki success ko aur aage badhaya. Babu Bhaiya ke dialogues aur Raju-Shyam ke beech ki nok-jhok aapko hamesha yaad rahegi. Yeh film dekh ke aapka mood definitely lift ho jayega.""
+    },
+    {
+      ""user"": ""Yeh to zaroor dekhni padegi! Shukriya yaar!"",
+      ""agent"": ""Aapka swagat hai, Rohit ji! Aapko yeh film bahut pasand aayegi. Agar aapko aur bhi recommendations chahiye, toh aap hamesha mujhe puchh sakte hain. Enjoy the laughs!""
+    }
+  ],
+  ""movies"": [""Phir Hera Pheri""]
+}
+"
+42,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi, thoda time hai aapse baat karne ke liye?"",
+      ""agent"": ""Bilkul, zaroor! Aapka naam kya hai? Kis tarah ki film dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mera naam Rahul hai. Kuch intense aur emotional dekhna hai."",
+      ""agent"": ""Rahul ji, agar aapko intense aur emotional kahani pasand hai, toh main aapko 'Rockstar' recommend karunga. Ranbir Kapoor ki best performances mein se ek hai yeh film.""
+    },
+    {
+      ""user"": ""Oh, Rockstar suna hai, par dekh nahi paya. Kaisi film hai yeh?"",
+      ""agent"": ""'Rockstar' ek journey hai ek musician ki, jo apne emotions aur struggles se ladta hai. Janardhan Jakhar se Jordan banne ki uski kahani, uska pyaar aur uski takleef aapke dil ko choo jaayegi. Imtiaz Ali ne direct ki hai, toh emotions ka depth bahut accha hai.""
+    },
+    {
+      ""user"": ""Sounds intense! Ranbir ki performance kaisi hai?"",
+      ""agent"": ""Ranbir Kapoor ne Jordan ke role mein jaan daal di hai. Uski performance ekdum raw aur real hai. Music by A.R. Rahman is film ka soul hai. 'Nadaan Parindey' aur 'Tum Ho' jaise gaane aapko film khatam hone ke baad bhi yaad rahenge.""
+    },
+    {
+      ""user"": ""Lagta hai yeh movie meri type ki hai. Zaroor dekhunga. Thanks yaar!"",
+      ""agent"": ""Aapko yeh film bahut pasand aayegi, Rahul ji. Agar aapko aur recommendations chahiye, toh hamesha mujhe puchh sakte hain. Enjoy the musical journey!""
+    }
+  ],
+  ""movies"": [""Rockstar""]
+}
+"
+43,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Aapse thodi help mil sakti hai?"",
+      ""agent"": ""Haan bilkul! Aapka naam kya hai? Main kaise madad kar sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai. Mujhe kuch aisa dekhna hai jo visually stunning ho aur thoda different bhi."",
+      ""agent"": ""Priya ji, aapke liye ek perfect suggestion hai—'Brahmastra'. Yeh ek visually grand aur unique movie hai, jisme Indian mythology aur modern storytelling ka combination hai.""
+    },
+    {
+      ""user"": ""Wow, Brahmastra ke baare mein suna hai, lekin dekhi nahi. Kaisi film hai?"",
+      ""agent"": ""Brahmastra ek trilogy ka first part hai, jisme Ranbir Kapoor aur Alia Bhatt lead roles mein hain. Ranbir ek aise ladke ka role play karte hain jise agni (fire) ka control milta hai. Yeh ek adventure hai jisme ancient astras (weapons) aur modern world ka integration hai. Amitabh Bachchan aur Mouni Roy bhi important roles mein hain.""
+    },
+    {
+      ""user"": ""Sounds interesting! VFX kaisa hai? Mujhe visuals kaafi matter karte hain."",
+      ""agent"": ""Visuals iss film ka highlight hain. VFX world-class hai, aur aapko ek alag hi duniya mein le jaayega. Ayan Mukerji ne is film ko direct kiya hai, aur usne mythology ko modern touch ke saath present kiya hai. Yeh film visually stunning experience deti hai.""
+    },
+    {
+      ""user"": ""Yeh toh kaafi exciting lag raha hai! Weekend par yeh hi dekhungi. Thanks for the recommendation!"",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Priya ji. Agar aapko aur kuch recommendations chahiye ya is movie ke baare mein aur puchna hai, toh main yahin hoon. Enjoy your cinematic adventure!""
+    }
+  ],
+  ""movies"": [""Brahmastra Part One: Shiva""]
+}
+"
+44,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Main thoda stress feel kar raha hoon. Koi light-hearted movie recommend kar sakte ho?"",
+      ""agent"": ""Hello! Bilkul recommend kar sakta hoon. Pehle, aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rohan hai."",
+      ""agent"": ""Rohan ji, aapse milkar achha laga. Jab aap stress mein hote hain, toh thoda light aur fun content dekhna hamesha acha hota hai. Aapne 'All Is Well' dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, suna to hai, par dekhi nahi. Kaisi film hai?"",
+      ""agent"": ""'All Is Well' ek light-hearted comedy-drama hai. Abhishek Bachchan, Rishi Kapoor, Asin, aur Supriya Pathak isme lead roles mein hain. Yeh ek dysfunctional family ki story hai jo apni problems ko solve karne ke liye ek road trip par nikalti hai.""
+    },
+    {
+      ""user"": ""Sounds interesting! Story kaise unfold hoti hai?"",
+      ""agent"": ""Story kaafi entertaining hai, with a mix of comedy, drama, aur thodi si emotional moments. Yeh film family ke importance aur unke saath challenges ko kaise face kiya jata hai, us par focus karti hai. Aur haan, iska title track 'All Is Well' bhi kaafi popular hua tha, jo positive vibes deta hai.""
+    },
+    {
+      ""user"": ""Wow, yeh to sunne mein hi feel-good lag rahi hai. Aaj hi dekhunga. Thanks for the recommendation!"",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Rohan ji. Agar aur bhi recommendations chahiye, toh main yahin hoon. All is well, enjoy your movie!""
+    }
+  ],
+  ""movies"": [""All Is Well""]
+}
+"
+45,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Mujhe koi movie recommend kar sakte ho jo motivation bhi de aur thodi entertaining bhi ho?"",
+      ""agent"": ""Hello! Of course, main recommend kar sakta hoon. Pehle aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Ankit hai."",
+      ""agent"": ""Ankit ji, aapse milkar khushi hui. Motivation aur entertainment ke liye ek perfect combination chahiye, right? Aapne '3 Idiots' dekhi hai?""
+    },
+    {
+      ""user"": ""Haan, naam suna hai, par ab tak dekh nahi paaya hoon. Kaisi movie hai?"",
+      ""agent"": ""'3 Idiots' ek classic film hai jo dosti, padhai ke pressure, aur apne sapno ko follow karne par focus karti hai. Aamir Khan, R. Madhavan, aur Sharman Joshi isme lead roles mein hain. Yeh film college life aur system ke flaws ko kaafi entertaining tareeke se dikhati hai.""
+    },
+    {
+      ""user"": ""Sounds interesting! Isme kya khaas baat hai?"",
+      ""agent"": ""Film kaafi inspiring hai, especially Aamir Khan ka character Rancho jo conventional education system ko challenge karta hai. 'All is well' wala mantra aapko yaad reh jaayega. Isme comedy, emotions, aur ek strong message, sab kuch hai. Aur haan, songs bhi kaafi popular hue the.""
+    },
+    {
+      ""user"": ""Yeh to sunne mein hi amazing lag rahi hai! Ab to definitely dekhni padegi."",
+      ""agent"": ""Ankit ji, aapko yeh film zaroor pasand aayegi. Yeh ek aisi movie hai jo dekhne ke baad aapko motivate bhi karegi aur entertain bhi. Enjoy the movie, aur yaad rakho, 'All is well'!""
+    }
+  ],
+  ""movies"": [""3 Idiots""]
+}"
+46,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi, mujhe koi epic love story wali movie suggest kar sakte ho?"",
+      ""agent"": ""Hello! Bilkul, main aapki madad kar sakta hoon. Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai."",
+      ""agent"": ""Priya ji, aapse milkar acha laga. Aapko ek epic love story dekhni hai, right? Aapne 'Bajirao Mastani' dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, maine ab tak nahi dekhi. Kaisi movie hai?"",
+      ""agent"": ""'Bajirao Mastani' ek grand historical romance film hai, jisme Ranveer Singh, Deepika Padukone, aur Priyanka Chopra lead roles mein hain. Yeh film Maratha Peshwa Bajirao aur Mastani ki love story par based hai, jo kaafi passionate aur tragic hai.""
+    },
+    {
+      ""user"": ""Sounds intense! Isme kya khaas baat hai?"",
+      ""agent"": ""Is film mein Sanjay Leela Bhansali ki direction, stunning visuals, aur strong performances sab kuch top-notch hai. Ranveer aur Deepika ki chemistry, Priyanka ka impactful role, aur film ke songs sabhi bahut hi powerful hain. War scenes aur emotional drama is film ko aur bhi gripping banate hain.""
+    },
+    {
+      ""user"": ""Wow, yeh to epic lag rahi hai! Definitely dekhni padegi."",
+      ""agent"": ""Priya ji, aapko yeh film zaroor pasand aayegi. Yeh ek aisi love story hai jo dil ko choo jaayegi. Enjoy the epic saga of 'Bajirao Mastani'!""
+    }
+  ],
+  ""movies"": [""Bajirao Mastani""]
+}"
+47,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hey, mujhe koi fun and youthful movie recommend kar sakte ho?"",
+      ""agent"": ""Of course! Aapko kis type ki movies pasand hain? Aur kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Riya hai. Mujhe campus life wali movies kaafi pasand aati hain."",
+      ""agent"": ""Riya ji, aapse milkar acha laga! Agar aapko campus life wali movies pasand hain, toh 'Student of the Year' dekhna banta hai. Karan Johar ki yeh film youth, friendship, aur competition ke saath full entertainment package hai.""
+    },
+    {
+      ""user"": ""Sounds interesting! Isme kaun hai?"",
+      ""agent"": ""Isme Alia Bhatt, Varun Dhawan, aur Sidharth Malhotra ne apna debut kiya tha. Yeh teenon ke beech ki dosti aur competition ki kahani hai, jo ek prestigious Student of the Year trophy jeetne ke liye struggle karte hain. Film mein romance, drama, aur dance numbers ka zabardast mix hai.""
+    },
+    {
+      ""user"": ""Wow, sounds like a fun watch! Koi special highlight?"",
+      ""agent"": ""Definitely! Is film ke songs superhit hain, jinke upar aap dance bhi kar sakte hain. Aur film ke glamorous sets, stylish costumes, aur vibrant energy se aap kaafi enjoy karenge. Yeh film young audience ke beech kaafi popular hai.""
+    },
+    {
+      ""user"": ""Perfect! Main zaroor dekhungi. Thanks for the recommendation!"",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh suggestion pasand aaya. 'Student of the Year' dekhne ka maza lijiye, aur campus life ke colorful moments ko enjoy kariye!""
+    }
+  ],
+  ""movies"": [""Student of the Year""]
+}"
+48,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hey, koi horror-comedy recommend kar sakte ho? Kuch aisa jo daraye bhi aur hasaye bhi."",
+      ""agent"": ""Bilkul, lekin pehle aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rohan hai."",
+      ""agent"": ""Rohan ji, aapse milkar acha laga! Aapko horror-comedy dekhni hai, toh 'Stree' perfect choice hai.""
+    },
+    {
+      ""user"": ""'Stree'? Kya khaas hai isme?"",
+      ""agent"": ""'Stree' ek unique horror-comedy hai jo ek chhoti si town ki kahani dikhati hai jahan log ek bhootni se darte hain jo aadmi ko raat mein utha le jaati hai. Rajkummar Rao, Shraddha Kapoor, aur Pankaj Tripathi ne is film mein zabardast acting ki hai.""
+    },
+    {
+      ""user"": ""Wow, sounds different. Story kaise hai?"",
+      ""agent"": ""Story mein suspense aur comedy ka perfect blend hai. Yeh film ek true incident se inspired hai aur social commentary bhi karti hai, jo ise aur bhi engaging bana deti hai. Dialogues kaafi funny hain, aur direction Amar Kaushik ne kiya hai, jo tone ko ekdum balance rakhta hai.""
+    },
+    {
+      ""user"": ""Interesting! Definitely dekhni padegi. Thanks for the suggestion!"",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh recommendation pasand aayi. 'Stree' dekhkar aapko mazaa aayega - dar ke saath-saath hasne ka bhi full chance hai!""
+    }
+  ],
+  ""movies"": [""Stree""]
+}"
+49,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello, koi patriotic war movie recommend kar sakte ho? Kuch inspiring dekhne ka mann hai."",
+      ""agent"": ""Zaroor! Pehle aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Arman hai."",
+      ""agent"": ""Arman, aapse milkar khushi hui! Agar aapko patriotic aur war movies pasand hai, toh 'Shershaah' dekhni chahiye.""
+    },
+    {
+      ""user"": ""'Shershaah'? Iske baare mein suna hai, par kaisi film hai?"",
+      ""agent"": ""'Shershaah' ek biopic hai Kargil War hero Captain Vikram Batra ke upar. Siddharth Malhotra ne unka role play kiya hai, aur unhone unki bravery aur sacrifice ko bahut hi emotional aur impactful tareeke se dikhaya hai. Kiara Advani bhi lead role mein hain.""
+    },
+    {
+      ""user"": ""Kargil War ki kahani hai? Kitni realistic lagti hai?"",
+      ""agent"": ""Haan, yeh film Kargil War ke dauran Vikram Batra ki bravery aur unke unmatched valor par focus karti hai. Film mein action sequences realistic hain aur aapko war ki intensity feel karayenge. Isme unki love story ka bhi emotional angle hai, jo film ko aur bhi engaging banata hai.""
+    },
+    {
+      ""user"": ""Sounds like a powerful movie. Definitely dekhunga. Thanks for the recommendation!"",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh recommendation pasand aayi. 'Shershaah' dekhkar aapko patriotism ka ek naya level feel hoga. Yeh film sach mein inspiring hai!""
+    }
+  ],
+  ""movies"": [""Shershaah""]
+}
+"
+50,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi, koi intense military film recommend kar sakte ho? Mujhe action aur patriotism ka mix chahiye."",
+      ""agent"": ""Hello! Bilkul, pehle aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai."",
+      ""agent"": ""Priya ji, aapse milkar khushi hui! Aapko intense military film chahiye, toh 'Uri: The Surgical Strike' dekhni chahiye.""
+    },
+    {
+      ""user"": ""'Uri: The Surgical Strike'? Isme kya special hai?"",
+      ""agent"": ""'Uri: The Surgical Strike' ek real-life inspired film hai jo 2016 ke surgical strikes par based hai. Vicky Kaushal ne lead role play kiya hai, aur unhone ek army officer ka role bahut hi impactful tareeke se nibhaya hai. Film mein action sequences aur military strategies ka accurate portrayal hai.""
+    },
+    {
+      ""user"": ""Yeh film kis scale pe banayi gayi hai? Kaisa action aur drama hai isme?"",
+      ""agent"": ""Film scale par ek high-intensity action drama hai. Surgical strikes ki planning aur execution ko detail mein dikhaya gaya hai, aur action sequences realistic aur gripping hain. Drama aur emotion bhi hai, jo film ko sirf ek war movie nahi, balki ek inspiring journey banata hai.""
+    },
+    {
+      ""user"": ""Sounds perfect! Yeh film kaise reviews mili hai?"",
+      ""agent"": ""Film ko largely positive reviews mile hain. Vicky Kaushal ki performance ko bahut praise kiya gaya hai, aur film ke direction, screenplay, aur action sequences ko bhi appreciate kiya gaya. Overall, film ne audiences ko patriotism aur courage ka strong sense diya hai.""
+    },
+    {
+      ""user"": ""Great! Main zaroor dekhoongi. Thanks for the suggestion!"",
+      ""agent"": ""Mujhe khushi hai ki aapko recommendation pasand aayi. 'Uri: The Surgical Strike' definitely aapko action aur patriotism ka accha mix dekhne ko milega. Enjoy the movie!""
+    }
+  ],
+  ""movies"": [""Uri: The Surgical Strike""]
+}
+"
+51,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Koi unique aur thought-provoking movie suggest kar sakte ho?"",
+      ""agent"": ""Hi! Zaroor, pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rohit hai."",
+      ""agent"": ""Rohit ji, aapse milkar khushi hui! Aapko ek unique aur thought-provoking movie chahiye, toh main 'PK' recommend karunga. Aapne dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, maine ab tak nahi dekhi. Isme kya khaas hai?"",
+      ""agent"": ""'PK' ek bahut hi interesting film hai. Aamir Khan ne ek alien ka role play kiya hai jo earth pe aata hai aur human beliefs aur religion ko samajhne ki koshish karta hai. Film humor aur satire ke zariye society ke various norms aur practices ko question karti hai.""
+    },
+    {
+      ""user"": ""Sounds interesting! Iska message kya hai?"",
+      ""agent"": ""Film ka message kaafi strong hai. Yeh blind faith, superstition, aur religion ke naam par hone wale exploitation ko challenge karti hai. Aamir Khan ki performance aur Rajkumar Hirani ka direction film ko aur bhi impactful banate hain.""
+    },
+    {
+      ""user"": ""Wow, yeh toh kaafi alag lag rahi hai. Reviews kaisi rahi iski?"",
+      ""agent"": ""Film ko bahut positive reviews mile hain. Critics ne iski bold storytelling aur Aamir Khan ki acting ko appreciate kiya hai. Yeh ek entertaining film hai, saath hi aapko sochne par majboor bhi karti hai.""
+    },
+    {
+      ""user"": ""Great! Main isse zaroor dekhunga. Thanks for the suggestion!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'PK' aapko ek unique experience degi, jisme entertainment aur thought-provoking message dono hain. Enjoy the movie, Rohit ji!""
+    }
+  ],
+  ""movies"": [""PK""]
+}"
+52,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi impactful movie suggest karo jo social issues pe based ho."",
+      ""agent"": ""Hello! Main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Sure, mera naam Akshay hai."",
+      ""agent"": ""Akshay ji, aapse milkar acha laga. Main 'My Name Is Khan' recommend karunga. Kya aapne yeh dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya story hai?"",
+      ""agent"": ""'My Name Is Khan' mein Shah Rukh Khan ne ek Muslim man ka role play kiya hai jo Asperger's syndrome se suffer karta hai. Post-9/11 world mein unhe apni identity ke liye struggle karna padta hai. Film powerful social message ke saath hai.""
+    },
+    {
+      ""user"": ""Sounds intense. Reviews kaise the?"",
+      ""agent"": ""Film ko critics aur audience dono se positive reviews mile. SRK ki performance aur Karan Johar ki direction ki kaafi tareef hui hai. Yeh ek emotional roller-coaster hai jo aapko zaroor dekhni chahiye.""
+    },
+    {
+      ""user"": ""Great, yeh main zaroor dekhunga!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'My Name Is Khan' ek impactful film hai jo aapko sochne par majboor kar degi. Enjoy the movie, Akshay ji!""
+    }
+  ],
+  ""movies"": [""My Name Is Khan""]
+}"
+53,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi gripping crime drama recommend kar sakte ho?"",
+      ""agent"": ""Hello! Pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rohan hai."",
+      ""agent"": ""Rohan ji, aap se milke khushi hui. Crime drama ke liye 'Raees' ek perfect choice hai. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya khaas hai?"",
+      ""agent"": ""'Raees' mein Shah Rukh Khan ne Gujarat ke ek bootlegger ka role play kiya hai jo apne illegal business aur social welfare ke beech juggle karta hai. Yeh film crime, politics, aur drama ka perfect blend hai.""
+    },
+    {
+      ""user"": ""Sounds interesting. Box office par kaisi rahi?"",
+      ""agent"": ""'Raees' ne box office par achha perform kiya tha. SRK ki performance aur dialogues ko logon ne kaafi pasand kiya, especially 'Baniye ka dimaag aur Miyanbhai ki daring'.""
+    },
+    {
+      ""user"": ""Yeh dialogue toh suna hai. Film dekhni padegi!"",
+      ""agent"": ""Bilkul Rohan ji, yeh film aapko zaroor pasand aayegi. 'Raees' ek gripping crime drama hai jo aapko pura time engage rakhegi.""
+    }
+  ],
+  ""movies"": [""Raees""]
+}"
+54,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Koi fun and empowering film recommend kar sakte ho?"",
+      ""agent"": ""Hi! Zaroor, pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Nisha hai."",
+      ""agent"": ""Nisha ji, aap se milke khushi hui. Aapko ek empowering film chahiye, toh main 'Thank You for Coming' recommend karunga. Kya aapne yeh dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, yeh kis bare mein hai?"",
+      ""agent"": ""'Thank You for Coming' ek modern-day women-centric film hai jo self-discovery aur friendship ke themes explore karti hai. Yeh ek light-hearted yet meaningful story hai jo aapko zaroor inspire karegi.""
+    },
+    {
+      ""user"": ""Sounds fun and relevant. Reviews kaisi thi?"",
+      ""agent"": ""Film ko audience se kaafi positive response mila hai, especially for its bold narrative aur relatable characters. Yeh ek entertaining aur thought-provoking film hai.""
+    },
+    {
+      ""user"": ""Main zaroor dekhti hoon. Thanks for the suggestion!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'Thank You for Coming' aapko ek refreshing experience degi. Enjoy the movie, Nisha ji!""
+    }
+  ],
+  ""movies"": [""Thank You for Coming""]
+}"
+55,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi heartwarming aur meaningful movie recommend kar sakte ho?"",
+      ""agent"": ""Hello! Main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Suresh hai."",
+      ""agent"": ""Suresh ji, aap se milke khushi hui. Main 'Taare Zameen Par' recommend karunga. Kya aapne yeh dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya story hai?"",
+      ""agent"": ""'Taare Zameen Par' ek young boy ki kahani hai jo dyslexia se struggle karta hai, aur kaise ek understanding teacher uska potential dekhta hai. Yeh film education aur parental pressure ke bare mein ek strong message deti hai.""
+    },
+    {
+      ""user"": ""Wow, sounds very emotional. Kaise reviews mile?"",
+      ""agent"": ""'Taare Zameen Par' ko bahut hi positive reviews mile hain. Aamir Khan ki direction aur Darsheel Safary ki performance ko critics aur audience dono ne bahut appreciate kiya hai.""
+    },
+    {
+      ""user"": ""Great, yeh main zaroor dekhunga!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'Taare Zameen Par' ek heartwarming film hai jo aapko deeply touch karegi. Enjoy the movie, Suresh ji!""
+    }
+  ],
+  ""movies"": [""Taare Zameen Par""]
+}"
+56,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi powerful biographical film recommend kar sakte ho?"",
+      ""agent"": ""Hello! Zaroor, pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai."",
+      ""agent"": ""Priya ji, aap se milke khushi hui. Main aapko 'Gangubai Kathiawadi' suggest karunga. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya khaas hai?"",
+      ""agent"": ""'Gangubai Kathiawadi' ek powerful woman ki story hai jo Mumbai ke red-light area mein apni pehchan banati hai. Alia Bhatt ki performance outstanding hai aur Sanjay Leela Bhansali ka direction top-notch.""
+    },
+    {
+      ""user"": ""Sounds intense. Reviews kaise the?"",
+      ""agent"": ""Film ko bahut positive reviews mile hain, especially for Alia Bhatt's portrayal of Gangubai. Yeh film visual treat ke saath ek impactful story bhi deliver karti hai.""
+    },
+    {
+      ""user"": ""Wow, yeh toh dekhni padegi!"",
+      ""agent"": ""Bilkul Priya ji, 'Gangubai Kathiawadi' aapko ek powerful cinematic experience degi. Enjoy the movie!""
+    }
+  ],
+  ""movies"": [""Gangubai Kathiawadi""]
+}"
+57,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Koi upcoming action-packed movie recommend kar sakte ho?"",
+      ""agent"": ""Hi! Main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Sure, mera naam Vivek hai."",
+      ""agent"": ""Vivek ji, aap se milke acha laga. Action-packed film ke liye main 'Fighter' suggest karunga. Kya aapne iske baare mein suna hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya special hai?"",
+      ""agent"": ""'Fighter' Hrithik Roshan aur Deepika Padukone ki upcoming action film hai. Yeh India ki pehli aerial action film hai, aur dono leads ek fighter pilot ke role mein hain. High-octane action aur stunning visuals is film ki highlight hain.""
+    },
+    {
+      ""user"": ""Wow, sounds thrilling. Release kab ho rahi hai?"",
+      ""agent"": ""'Fighter' 2024 mein release hone wali hai. Film ka buzz kaafi high hai, aur fans eagerly wait kar rahe hain.""
+    },
+    {
+      ""user"": ""Yeh toh definitely dekhunga!"",
+      ""agent"": ""Mujhe khushi hai ki aap excited hain. 'Fighter' ek thrilling experience hogi jo aapko edge of the seat par rakhegi. Enjoy the movie, Vivek ji!""
+    }
+  ],
+  ""movies"": [""Fighter""]
+}
+
+"
+58,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi recent action movie suggest kar sakte ho?"",
+      ""agent"": ""Hello! Zaroor, pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Ankit hai."",
+      ""agent"": ""Ankit ji, aap se milke khushi hui. Aapko recent action movie chahiye, toh 'Bholaa' perfect choice hai. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, yeh kis bare mein hai?"",
+      ""agent"": ""'Bholaa' Ajay Devgn starrer action film hai, jo ek ex-convict ki kahani hai jo apni beti se milne ja raha hota hai, but raaste mein unexpected events ka samna karta hai. Film mein action sequences aur emotions ka perfect blend hai.""
+    },
+    {
+      ""user"": ""Sounds interesting. Reviews kaise the?"",
+      ""agent"": ""'Bholaa' ko audience se positive reviews mile hain, especially for its intense action scenes aur Ajay Devgn ki performance. Yeh ek edge-of-the-seat thriller hai.""
+    },
+    {
+      ""user"": ""Great! Main zaroor dekhunga."",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'Bholaa' ek thrilling ride hai jo aapko engage rakhegi. Enjoy the movie, Ankit ji!""
+    }
+  ],
+  ""movies"": [""Bholaa""]
+}"
+59,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi entertaining Bollywood masala movie recommend kar sakte ho?"",
+      ""agent"": ""Hello! Main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Sure, mera naam Raj hai."",
+      ""agent"": ""Raj ji, aap se milke khushi hui. Bollywood masala film ke liye main 'Om Shanti Om' recommend karunga. Kya aapne yeh dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya special hai?"",
+      ""agent"": ""'Om Shanti Om' ek perfect Bollywood entertainer hai jisme romance, drama, action, aur reincarnation ka tadka hai. Shah Rukh Khan aur Deepika Padukone ki jodi aur Farah Khan ka direction film ko blockbuster banate hain.""
+    },
+    {
+      ""user"": ""Sounds fun. Reviews kaise the?"",
+      ""agent"": ""'Om Shanti Om' ko critics aur audience dono se positive response mila. Film ke songs, dialogues, aur overall entertaining vibe ko bahut pasand kiya gaya.""
+    },
+    {
+      ""user"": ""Great, main yeh zaroor dekhunga!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'Om Shanti Om' aapko ek pura entertainment package degi. Enjoy the movie, Raj ji!""
+    }
+  ],
+  ""movies"": [""Om Shanti Om""]
+}"
+60,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi family drama recommend kar sakte ho?"",
+      ""agent"": ""Hello! Zaroor, pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Varun hai."",
+      ""agent"": ""Varun ji, aap se milke khushi hui. Family drama ke liye 'Kabhi Khushi Kabhie Gham...' ek classic choice hai. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, yeh kis bare mein hai?"",
+      ""agent"": ""'Kabhi Khushi Kabhie Gham...' ek emotional family drama hai jo ek rich family ki kahani batata hai jisme values, traditions, aur relationships ka conflict hota hai. Amitabh Bachchan, Jaya Bachchan, Shah Rukh Khan, Kajol, aur Hrithik Roshan isme hain.""
+    },
+    {
+      ""user"": ""Sounds intense. Reviews kaise the?"",
+      ""agent"": ""Film ko release ke time se hi cult status mil gaya tha. Grand sets, powerful performances, aur emotional depth is film ki highlights hain. Yeh film aapke family ke saath dekhne layak hai.""
+    },
+    {
+      ""user"": ""Yeh toh dekhni padegi!"",
+      ""agent"": ""Bilkul Varun ji, 'Kabhi Khushi Kabhie Gham...' aapko ek grand cinematic experience degi. Enjoy the movie!""
+    }
+  ],
+  ""movies"": [""Kabhi Khushi Kabhie Gham""]
+}
+"
+61,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi hard-hitting film recommend kar sakte ho jo real events par based ho?"",
+      ""agent"": ""Hello! Main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Sure, mera naam Sneha hai."",
+      ""agent"": ""Sneha ji, aap se milke khushi hui. Real events par based ek hard-hitting film ke liye 'The Kerala Story' suggest karunga. Kya aapne iske baare mein suna hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya story hai?"",
+      ""agent"": ""'The Kerala Story' ek controversial topic par based hai jo Kerala mein girls ki human trafficking aur radicalization ke baare mein baat karti hai. Film ki story kaafi disturbing aur thought-provoking hai.""
+    },
+    {
+      ""user"": ""Sounds intense. Reviews kaise the?"",
+      ""agent"": ""Film ko mixed reviews mile hain, but story aur performances ko kaafi appreciate kiya gaya hai. Yeh ek film hai jo aapko deeply impact karegi.""
+    },
+    {
+      ""user"": ""Main zaroor dekhti hoon. Thanks!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'The Kerala Story' ek impactful film hai jo aapko soche par majboor karegi. Enjoy the movie, Sneha ji!""
+    }
+  ],
+  ""movies"": [""The Kerala Story""]
+}"
+62,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello! Koi gripping thriller recommend kar sakte ho?"",
+      ""agent"": ""Hi! Zaroor, pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Sure, mera naam Sahil hai."",
+      ""agent"": ""Sahil ji, aap se milke khushi hui. Thriller ke liye 'Vikram Vedha' ek perfect choice hai. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya special hai?"",
+      ""agent"": ""'Vikram Vedha' ek intense cat-and-mouse thriller hai jisme Saif Ali Khan aur Hrithik Roshan ne lead roles play kiya hai. Film morality aur ethics ke complex questions ko explore karti hai.""
+    },
+    {
+      ""user"": ""Sounds interesting. Reviews kaise the?"",
+      ""agent"": ""'Vikram Vedha' ko critics aur audience dono se positive reviews mile hain. Hrithik Roshan aur Saif Ali Khan ki performances aur film ki storytelling ki kaafi tareef hui hai.""
+    },
+    {
+      ""user"": ""Great, main yeh zaroor dekhunga!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'Vikram Vedha' ek edge-of-the-seat thriller hai jo aapko zaroor engage karegi. Enjoy the movie, Sahil ji!""
+    }
+  ],
+  ""movies"": [""Vikram Vedha""]
+}
+"
+63,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi inspiring movie recommend kar sakte ho?"",
+      ""agent"": ""Hello! Main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Sure, mera naam Neha hai."",
+      ""agent"": ""Neha ji, aap se milke khushi hui. Inspiring film ke liye main 'Swades' suggest karunga. Kya aapne yeh dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya story hai?"",
+      ""agent"": ""'Swades' mein Shah Rukh Khan ne ek NRI ka role play kiya hai jo apne gaon wapas aata hai aur wahan ke logon ki help karne ka decision leta hai. Film nationalism, social change, aur individual responsibility ke themes explore karti hai.""
+    },
+    {
+      ""user"": ""Sounds very inspiring. Reviews kaise the?"",
+      ""agent"": ""'Swades' ko critics aur audience dono se excellent reviews mile. Film ka message aur SRK ki performance isse timeless classic banate hain.""
+    },
+    {
+      ""user"": ""Great, main zaroor dekhungi!"",
+      ""agent"": ""Mujhe khushi hai ki aapko suggestion pasand aaya. 'Swades' aapko inspire karegi aur ek deep impact chhodegi. Enjoy the movie, Neha ji!""
+    }
+  ],
+  ""movies"": [""Swades: We, the People""]
+}
+"
+64,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi Bollywood movie suggest kar sakte ho jisme strong female lead ho?"",
+      ""agent"": ""Hello! Zaroor, aapko kaise tarike ki filmein pasand hain? Action, drama ya fir kuch aur?""
+    },
+    {
+      ""user"": ""Mujhe drama aur biography zyada pasand hain."",
+      ""agent"": ""Bahut achcha! Fir main aapko 'Mary Kom' dekhne ka sujhav dunga. Yeh ek bharatiya boxer mary kom ki biography hai. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahin, maine yeh film nahin dekhi hai. Yeh kaisi film hai?"",
+      ""agent"": ""'Mary Kom' ek bahut hi prerak film hai jo mary kom ke sangharshon aur unki jeet ko darshati hai. Film mein Priyanka Chopra ne mary kom ka kirdaar nibhaya hai aur unhone bahut achcha kaam kiya hai.""
+    },
+    {
+      ""user"": ""Priyanka Chopra to bahut achchi actress hain. Kya aap koi aur aisi film bata sakte hain jisme unhone strong female character nibhaya ho?"",
+      ""agent"": ""Zaroor! Aap 'Quantico' bhi dekh sakte hain. Yeh ek american tv series hai jisme Priyanka Chopra ek FBI agent ka kirdaar nibhati hain. Agar aapko bharatiya filmein hi dekhni hain to aap 'Bajirao Mastani' bhi dekh sakte hain. Ismein Deepika Padukone ne ek bahut hi shaktishali rani ka kirdaar nibhaya hai.""
+    },
+    {
+      ""user"": ""Dhannyavaad! Main yeh sari filmein dekhoongi."",
+      ""agent"": ""Aapka swagat hai! Mujhe umeed hai ki aapko yeh filmein pasand aayengi. Agar aapko aur koi sujhav chahiye to mujhse puch sakte hain.""
+    }
+  ],
+  ""movies"": [""Mary Kom"", ""Quantico"", ""Bajirao Mastani""]
+}"
+65,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi Bollywood movie suggest karo jisme romantic chemistry bahut mast ho?"",
+      ""agent"": ""Namaste! Kaise hain aap? Mujhe aapke naam ka pata chal sakta hai?""
+    },
+    {
+      ""user"": ""Mera naam Rahul hai."",
+      ""agent"": ""Rahul ji, aapko milkar khushi hui. Aapko kis tarah ki filmein pasand hain? Kuch khaas genre ya actor?""
+    },
+    {
+      ""user"": ""Mujhe classic Bollywood movies pasand hain, especially Shah Rukh Khan ki."",
+      ""agent"": ""Acha, yeh to bahut interesting hai! Aapne 'Dilwale Dulhania Le Jayenge' dekhi hai? Yeh ek timeless classic hai.""
+    },
+    {
+      ""user"": ""Haan, dekhi hai. Bahut emotional film hai."",
+      ""agent"": ""Bilkul! Aapko 'Kuch Kuch Hota Hai' bhi pasand aa sakti hai. Yeh bhi ek classic romantic drama hai.""
+    }
+  ],
+  ""movies"": [""Dilwale Dulhania Le Jayenge"", ""Kuch Kuch Hota Hai""]
+}"
+66,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi sci-fi movie suggest karo jisme futuristic and action-packed ho?"",
+      ""agent"": ""Hello there! Kaisa chal raha hai? Mujhe aapka naam pata chal sakta hai?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai."",
+      ""agent"": ""Priya ji, aapko milkar khushi hui. Aapko kis tarah ki filmein pasand hain? Kuch khaas genre ya actor?""
+    },
+    {
+      ""user"": ""Mujhe sci-fi films pasand hain. Kuch futuristic and action-packed."",
+      ""agent"": ""Acha, yeh to bahut interesting hai! Aapne 'Krrish 3' dekhi hai? Yeh ek Indian superhero film hai.""
+    },
+    {
+      ""user"": ""Haan, dekhi hai. Bahut maza aaya."",
+      ""agent"": ""Bilkul! Aapko 'Robot' bhi pasand aa sakti hai. Yeh bhi ek sci-fi film hai jisme Rajinikanth hai.""
+    }
+  ],
+  ""movies"": [""Krrish 3"", ""Robot""]
+}"
+67,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Kaisi chal rahi hai aapki? Koi aisi film dekhi jo aapko bahut pasand aayi ho?"",
+      ""agent"": ""Namaste! Main theek hoon, shukriya. Aapka kya haal hai? Haal hi mein aapne kon si film dekhi hai?""
+    },
+    {
+      ""user"": ""Main bhi theek hoon. Maine abhi-abhi 'Zara Hatke Zara Bachke' dekhi hai."",
+      ""agent"": ""Waah, 'Zara Hatke Zara Bachke'! Yeh film to kaafi charcha mein rahi thi. Kya aapko film pasand aayi? Kon sa seen aapko sabse zyada yaad raha?""
+    },
+    {
+      ""user"": ""Haan, film kaafi mazedaar thi. Mujhe to Kapil aur Saiyami ki jodi bahut pasand aayi. Khaskar jab wo dono ghar se bhagne ki koshish karte hain."",
+      ""agent"": ""Haan, wo seen to bahut hi haasyaspad tha. Film mein aapko aur kya pasand aaya? Shayad aapko 'Dream Girl' bhi pasand aayegi. Dono hi filmon mein Kapil ka comedy ka timing bahut achcha hai.""
+    }
+  ],
+  ""movie"": ""Zara Hatke Zara Bachke""
+}"
+68,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi emotional movie suggest karo jo mujhe rula de?"",
+      ""agent"": ""Namaste! Kaisi chal rahi hai aapki? Koi aisi film dekhi jo aapko bahut pasand aayi ho?""
+    },
+    {
+      ""user"": ""Main bhi theek hoon. Maine abhi-abhi 'Kal Ho Naa Ho' dekhi hai."",
+      ""agent"": ""Waah, 'Kal Ho Naa Ho'! Yeh film to ek classic hai. Kya aapko film pasand aayi? Kon sa scene aapko sabse zyada yaad raha?""
+    },
+    {
+      ""user"": ""Haan, film bahut emotional thi. Mujhe to Shah Rukh Khan ka performance bahut pasand aaya. Khaskar jab wo 'Kuch To Hai' gaana gaa raha tha."",
+      ""agent"": ""Haan, wo scene to bahut hi emotional tha. Film mein aapko aur kya pasand aaya? Shayad aapko 'Kabhi Khushi Kabhie Gham' bhi pasand aayegi. Dono hi filmon mein Shah Rukh Khan ki acting kaafi impressive hai.""
+    }
+  ],
+  ""movie"": ""Kal Ho Naa Ho""
+}"
+69,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi thriller movie suggest karo jo mind blowing ho?"",
+      ""agent"": ""Namaste! Kaisi chal rahi hai aapki? Koi aisi film dekhi jo aapko bahut pasand aayi ho? Thriller movies ke baare mein aapko kya pasand aata hai?""
+    },
+    {
+      ""user"": ""Main bhi theek hoon. Maine abhi-abhi 'Ghajini' dekhi hai."",
+      ""agent"": ""Waah, 'Ghajini'! Yeh film to kaafi thriller hai. Kya aapko film pasand aayi? Aamir Khan ka performance kaisa laga? Aur kya aapko film ka twist pasand aaya?""
+    },
+    {
+      ""user"": ""Haan, film bahut hi mast thi. Aamir Khan ne to apni acting se sabko impress kar diya. Mujhe to film ka climax sabse zyada yaad raha. Itna twist tha ki main bilkul shock ho gaya tha."",
+      ""agent"": ""Haan, climax to bahut hi unexpected tha. Aamir Khan ne apni memory loss wali problem ko kaise manage kiya, yeh dekhna bahut interesting tha. Aapko Aamir Khan ki aur konsi film pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe '3 Idiots' bhi bahut pasand hai. Aapko kya lagta hai, kya 'Ghajini' aur '3 Idiots' dono hi films mein Aamir Khan ne ek hi tarah ka role nibhaya hai?"",
+      ""agent"": ""Dono hi films mein Aamir Khan ne different roles nibhaye hain. 'Ghajini' mein woh ek revengeful character tha, jabki '3 Idiots' mein woh ek inspirational teacher tha. Dono hi roles mein unhone apni acting skills ka bahut acha use kiya hai. Aapko kon sa role zyada pasand aaya?""
+    }
+  ],
+  ""movie"": ""Ghajini""
+}"
+70,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi historical thriller suggest karo jo mind blowing ho?"",
+      ""agent"": ""Namaste! Kaisi chal rahi hai aapki? Koi aisi film dekhi jo aapko bahut pasand aayi ho? Thriller movies ke baare mein aapko kya pasand aata hai?""
+    },
+    {
+      ""user"": ""Main bhi theek hoon. Maine abhi-abhi 'Mission Majnu' dekhi hai."",
+      ""agent"": ""Waah, 'Mission Majnu'! Yeh film to kaafi thriller hai. Kya aapko film pasand aayi? Sidharth Malhotra ka performance kaisa laga? Aur kya aapko film ka climax pasand aaya?""
+    },
+    {
+      ""user"": ""Haan, film bahut hi mast thi. Sidharth Malhotra ne to apni acting se sabko impress kar diya. Mujhe to film ka climax sabse zyada yaad raha. Itna twist tha ki main bilkul shock ho gaya tha."",
+      ""agent"": ""Haan, climax to bahut hi unexpected tha. Sidharth Malhotra ne apne character ko kaise nibhaya, yeh dekhna bahut interesting tha. Aapko Sidharth Malhotra ki aur konsi film pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe 'Shershaah' bhi bahut pasand hai. Aapko kya lagta hai, kya 'Mission Majnu' aur 'Shershaah' dono hi films mein Sidharth Malhotra ne ek hi tarah ka role nibhaya hai?"",
+      ""agent"": ""Dono hi films mein Sidharth Malhotra ne different roles nibhaye hain. 'Mission Majnu' mein woh ek RAW agent tha, jabki 'Shershaah' mein woh Kargil War hero Captain Vikram Batra tha. Dono hi roles mein unhone apni acting skills ka bahut acha use kiya hai. Aapko kon sa role zyada pasand aaya?""
+    }
+  ],
+  ""movie"": ""Mission Majnu""
+}"
+71,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi thriller movie suggest karo jisme Yami Gautam ho?"",
+      ""agent"": ""Namaste! Kaisi chal rahi hai aapki? Koi aisi film dekhi jo aapko bahut pasand aayi ho? Thriller movies ke baare mein aapko kya pasand aata hai?""
+    },
+    {
+      ""user"": ""Main bhi theek hoon. Maine abhi-abhi 'Thursday' dekhi hai."",
+      ""agent"": ""Waah, 'Thursday'! Yeh film to kaafi thriller hai. Kya aapko film pasand aayi? Yami Gautam ka performance kaisa laga? Aur kya aapko film ka climax pasand aaya?""
+    },
+    {
+      ""user"": ""Haan, film bahut hi mast thi. Yami Gautam ne to apni acting se sabko impress kar diya. Mujhe to film ka climax sabse zyada yaad raha. Itna twist tha ki main bilkul shock ho gaya tha."",
+      ""agent"": ""Haan, climax to bahut hi unexpected tha. Yami Gautam ne apne character ko kaise nibhaya, yeh dekhna bahut interesting tha. Aapko Yami Gautam ki aur konsi film pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe 'Uri: The Surgical Strike' bhi bahut pasand hai. Aapko kya lagta hai, kya 'Thursday' aur 'Uri: The Surgical Strike' dono hi films mein Yami Gautam ne ek hi tarah ka role nibhaya hai?"",
+      ""agent"": ""Dono hi films mein Yami Gautam ne different roles nibhaye hain. 'Thursday' mein woh ek school teacher thi, jabki 'Uri: The Surgical Strike' mein woh एक army officer थी. Dono hi roles mein unhone apni acting skills ka bahut acha use kiya hai. Aapko kon sa role zyada pasand aaya?""
+    }
+  ],
+  ""movie"": ""Thursday""
+}"
+72,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi! Koi aisi thriller movie suggest karo jisme suspense ho?"",
+      ""agent"": ""Namaste! Kaisi chal rahi hai aapki? Koi aisi film dekhi jo aapko bahut pasand aayi ho? Thriller movies ke baare mein aapko kya pasand aata hai?""
+    },
+    {
+      ""user"": ""Main bhi theek hoon. Maine abhi-abhi 'Wajah Tum Ho' dekhi hai."",
+      ""agent"": ""Waah, 'Wajah Tum Ho'! Yeh film to kaafi thriller hai. Kya aapko film pasand aayi? Shah Rukh Khan ka performance kaisa laga? Aur kya aapko film ka climax pasand aaya?""
+    },
+    {
+      ""user"": ""Haan, film bahut hi mast thi. Shah Rukh Khan ne to apni acting se sabko impress kar diya. Mujhe to film ka climax sabse zyada yaad raha. Itna twist tha ki main bilkul shock ho gaya tha."",
+      ""agent"": ""Haan, climax to bahut hi unexpected tha. Shah Rukh Khan ne apne character ko kaise nibhaya, yeh dekhna bahut interesting tha. Aapko Shah Rukh Khan ki aur konsi film pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe 'Dilwale Dulhania Le Jayenge' bhi bahut pasand hai. Aapko kya lagta hai, kya 'Wajah Tum Ho' aur 'Dilwale Dulhania Le Jayenge' dono hi films mein Shah Rukh Khan ne ek hi tarah ka role nibhaya hai?"",
+      ""agent"": ""Dono hi films mein Shah Rukh Khan ne different roles nibhaye hain. 'Wajah Tum Ho' mein woh ek lawyer tha, jabki 'Dilwale Dulhania Le Jayenge' mein woh ek NRI tha. Dono hi roles mein unhone apni acting skills ka bahut acha use kiya hai. Aapko kon sa role zyada pasand aaya?""
+    }
+  ],
+  ""movie"": ""Wajah Tum Ho""
+}"
+73,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rohan hai."",
+      ""agent"": ""Rohan ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai? Aaj kal kya mood chal raha hai?""
+    },
+    {
+      ""user"": ""Kuch heartwarming aur inspiring dekhne ka mann hai."",
+      ""agent"": ""Samajh gaya, Rohan ji. Agar aapko inspiring aur heartwarming story dekhni hai, toh main recommend karunga 'Laal Singh Chaddha'. Yeh Aamir Khan ki latest film hai, aur ek bohot hi emotional aur uplifting kahani hai.""
+    },
+    {
+      ""user"": ""Acha, yeh kaunsi film hai?"",
+      ""agent"": ""'Laal Singh Chaddha' ek aise insaan ki kahani hai jo apni simplicity aur innocence ke saath life ke har challenge ka saamna karta hai. Yeh film Hollywood ki 'Forrest Gump' ka Indian adaptation hai, lekin apne andaaz mein kaafi unique aur special hai.""
+    },
+    {
+      ""user"": ""Sounds interesting! Storyline aur performances kaise hain?"",
+      ""agent"": ""Storyline bahut hi touching hai, aur Aamir Khan ne apne role mein kamaal ki performance di hai. Film aapke dil ko zaroor chu legi.""
+    },
+    {
+      ""user"": ""Perfect! Is weekend yeh film dekhunga. Thanks for the recommendation!"",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh suggestion pasand aaya. Enjoy the movie, Rohan ji! Aur agar aur koi recommendation chahiye ho toh zaroor bataye.""
+    }
+  ],
+  ""movies"": [""Laal Singh Chaddha""]
+}
+"
+74,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hey! Kuch action-packed movie recommend kar sakte ho?"",
+      ""agent"": ""Sure! Pehle main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Amit hai."",
+      ""agent"": ""Amit ji, aapse milke achha laga. Aapko action-packed movie chahiye, toh 'Singham' zaroor dekhni chahiye. Kya aapne yeh film dekhi hai?""
+    },
+    {
+      ""user"": ""Nahi, isme kya khaas hai?"",
+      ""agent"": ""'Singham' Ajay Devgn ki film hai, jismein woh ek no-nonsense cop ka role play karte hain. Film ek corrupt politician ke against unki fight ke aas-paas ghoomti hai. High-octane action scenes aur power-packed dialogues se bhari hui hai.""
+    },
+    {
+      ""user"": ""Sounds intense! Aur kuch?"",
+      ""agent"": ""'Singham' ki direction Rohit Shetty ne ki hai, toh aap expect kar sakte hain larger-than-life stunts aur entertaining sequences. Ajay Devgn ka performance ek dum solid hai, jo aapko screen se bandhe rakhega.""
+    },
+    {
+      ""user"": ""Yeh to perfect lag rahi hai! Zaroor dekhunga."",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh suggestion pasand aaya, Amit ji. 'Singham' dekhna ek action-packed experience hoga. Enjoy the movie!""
+    }
+  ],
+  ""movies"": [""Singham""]
+}
+"
+75,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Arjun hai."",
+      ""agent"": ""Arjun ji, aapse milkar accha laga. Aaj kal aapko kis type ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe action aur drama pasand hai, kuch thrilling dekhne ka mood hai."",
+      ""agent"": ""Toh phir Arjun ji, aapko 'Raees' dekhni chahiye. Yeh Shah Rukh Khan ki ek intense action-drama film hai.""
+    },
+    {
+      ""user"": ""Oh, Raees! Yeh kaisi film hai?"",
+      ""agent"": ""'Raees' Gujarat ke ek bootlegger ki story hai jo apne dhandhe ko badhane ke liye sab kuch karta hai. Shah Rukh Khan ne apni powerful presence ke saath is character ko bahut acchi tarah se nibhaya hai.""
+    },
+    {
+      ""user"": ""Sounds like a must-watch! Story aur action kaisa hai?"",
+      ""agent"": ""Story gripping hai, aur action sequences aapko edge pe rakhte hain. Dialogues bhi kaafi impactful hain. Agar aapko drama aur action pasand hai, toh yeh film aapke liye perfect hai.""
+    },
+    {
+      ""user"": ""Great! Is weekend yeh film zaroor dekhunga. Thanks!"",
+      ""agent"": ""Aapka weekend ab zabardast hoga, Arjun ji! Enjoy the movie. Agar aur koi film recommendation chahiye toh bataiye.""
+    }
+  ],
+  ""movies"": [""Raees""]
+}"
+76,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Saurabh hai."",
+      ""agent"": ""Saurabh ji, aapse milkar khushi hui. Aaj kal aapko kis type ki film dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Kuch emotional aur impactful dekhna chahta hoon."",
+      ""agent"": ""Samajh gaya, Saurabh ji. Aapko 'Taare Zameen Par' dekhni chahiye. Yeh ek aisi film hai jo aapko sochne par majboor kar degi, aur aapke dil ko chhoo legi.""
+    },
+    {
+      ""user"": ""Yeh kaunsi film hai?"",
+      ""agent"": ""'Taare Zameen Par' ek chote ladke ki kahani hai jo dyslexia se joojh raha hai, aur kaise uska art teacher uski life badal deta hai. Aamir Khan ne is film ko direct bhi kiya hai, aur yeh film emotional journey ko bahut hi acchi tarah se dikhati hai.""
+    },
+    {
+      ""user"": ""Sounds really deep and meaningful."",
+      ""agent"": ""Bilkul Saurabh ji, yeh film aapko zaroor inspire karegi. It's a must-watch!""
+    },
+    {
+      ""user"": ""Great, I'll watch it this weekend. Thanks!"",
+      ""agent"": ""Mujhe khushi hai ki aapko yeh suggestion pasand aaya. Enjoy the movie, Saurabh ji!""
+    }
+  ],
+  ""movies"": [""Taare Zameen Par""]
+}
+"
+77,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Sneha hai."",
+      ""agent"": ""Sneha ji, aapse milkar khushi hui. Aap aaj kal kaise filmein dekhna pasand karti hain?""
+    },
+    {
+      ""user"": ""Mujhe romantic drama pasand hai, kuch classic love story suggest karenge?"",
+      ""agent"": ""'Veer-Zaara' dekh kar dekhiye. Yeh ek timeless love story hai jo aapko ek emotional journey par le jaayegi.""
+    },
+    {
+      ""user"": ""Yeh kaunsi film hai?"",
+      ""agent"": ""'Veer-Zaara' Shah Rukh Khan aur Preity Zinta ke behtareen performances ke saath ek Indian Air Force pilot aur Pakistani ladki ki kahani hai. Yash Chopra ne isse direct kiya hai, aur isme pyaar aur sacrifice ki kahani dikhayi gayi hai.""
+    },
+    {
+      ""user"": ""Sounds beautiful. I'll definitely watch it."",
+      ""agent"": ""Sneha ji, yeh film aapke dil ko zaroor choo legi. Enjoy the movie!""
+    }
+  ],
+  ""movies"": [""Veer-Zaara""]
+}
+"
+78,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Arjun hai."",
+      ""agent"": ""Arjun ji, aapse milkar achha laga. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe intense aur passionate love stories dekhna pasand hai."",
+      ""agent"": ""Toh Arjun ji, 'Goliyon Ki Rasleela Ram-Leela' perfect choice hogi. Yeh ek passionate love story hai jisme Ranveer Singh aur Deepika Padukone ne kamaal ki performance di hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Goliyon Ki Rasleela Ram-Leela' Sanjay Leela Bhansali ki directorial masterpiece hai. Yeh Shakespeare ki Romeo and Juliet par based hai, aur isme intense love, family feuds, aur visually stunning scenes hain.""
+    },
+    {
+      ""user"": ""Sounds powerful. I'll watch it soon."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Arjun ji. Enjoy the drama!""
+    }
+  ],
+  ""movies"": [""Goliyon Ki Rasleela Ram-Leela""]
+}"
+79,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Rohan hai."",
+      ""agent"": ""Rohan ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhna chahte hain?""
+    },
+    {
+      ""user"": ""Mujhe adventure aur action pasand hai, kuch bada aur dramatic suggest kariye."",
+      ""agent"": ""'Thugs of Hindostan' aapke liye best option hogi. Yeh ek epic action-adventure film hai jisme Amitabh Bachchan aur Aamir Khan ne zabardast roles kiye hain.""
+    },
+    {
+      ""user"": ""Yeh film kaise hai?"",
+      ""agent"": ""'Thugs of Hindostan' 18th century ke India mein set hai. Isme pirates, revenge, aur large-scale battles hain. Visuals aur action sequences is film ka highlight hain.""
+    },
+    {
+      ""user"": ""Sounds like a visual treat. I'll give it a watch."",
+      ""agent"": ""Rohan ji, yeh film aapko ek thrilling experience degi. Enjoy the adventure!""
+    }
+  ],
+  ""movies"": [""Thugs of Hindostan""]
+}"
+80,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Pooja hai."",
+      ""agent"": ""Pooja ji, aapse milkar achha laga. Aapko kis tarah ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe hard-hitting aur socially relevant filmein dekhna pasand hai."",
+      ""agent"": ""Toh Pooja ji, 'Bheed' aapke liye ek perfect choice hogi. Yeh film ek intense social drama hai jo aapko sochne par majboor kar degi.""
+    },
+    {
+      ""user"": ""Yeh film kis bare mein hai?"",
+      ""agent"": ""'Bheed' 2020 ke lockdown ke waqt migrant workers ke struggles ko highlight karti hai. Yeh film real-life events par based hai aur aapko deeply impact karegi.""
+    },
+    {
+      ""user"": ""Sounds intense. I'll definitely watch it."",
+      ""agent"": ""Mujhe puri ummeed hai ki aapko yeh film pasand aayegi. Enjoy the impactful storytelling!""
+    }
+  ],
+  ""movies"": [""Bheed""]
+}
+"
+81,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi there!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Anjali hai."",
+      ""agent"": ""Anjali ji, aapse milkar khushi hui. Aaj kal aap kis tarah ki filmein dekhne ka mann bana rahi hain?""
+    },
+    {
+      ""user"": ""Mujhe complex relationship dramas dekhna pasand hai."",
+      ""agent"": ""'Kabhi Alvida Naa Kehna' aapke liye ek perfect pick hogi. Yeh ek intense relationship drama hai jo modern relationships ke complexities ko explore karta hai.""
+    },
+    {
+      ""user"": ""Is film mein kya khas hai?"",
+      ""agent"": ""'Kabhi Alvida Naa Kehna' mein Shah Rukh Khan, Rani Mukerji, Preity Zinta aur Abhishek Bachchan lead roles mein hain. Yeh film love, marriage, aur betrayal ki kahani ko bahut hi emotionally explore karti hai.""
+    },
+    {
+      ""user"": ""Sounds like something I'd enjoy. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Anjali ji. Enjoy the emotional rollercoaster!""
+    }
+  ],
+  ""movies"": [""Kabhi Alvida Naa Kehna""]
+}"
+82,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Vijay hai."",
+      ""agent"": ""Vijay ji, aapse milkar achha laga. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe social comedy pasand hai, jisme thoda sa message bhi ho."",
+      ""agent"": ""'Badhaai Do' aapke liye ek acchi choice hogi. Yeh ek light-hearted comedy hai jo important social issues ko highlight karti hai.""
+    },
+    {
+      ""user"": ""Yeh kis baare mein hai?"",
+      ""agent"": ""'Badhaai Do' Rajkummar Rao aur Bhumi Pednekar ke behtareen performances ke saath LGBTQ+ community aur beard marriages par focus karti hai. Isme comedy ke saath saath ek important social message bhi hai.""
+    },
+    {
+      ""user"": ""Sounds meaningful and fun. I'll check it out."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Vijay ji. Enjoy the laughter with a message!""
+    }
+  ],
+  ""movies"": [""Badhaai Do""]
+}
+"
+83,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Radhika hai."",
+      ""agent"": ""Radhika ji, aapse milkar khushi hui. Aaj kal aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe romantic comedies pasand hain, kuch shaadi ke aas-paas set ho to accha lagega."",
+      ""agent"": ""'Prem Ki Shaadi' aapke liye ek acchi choice hogi. Yeh ek fun-filled romantic comedy hai jo shaadi aur pyaar ke aas-paas ghoomti hai.""
+    },
+    {
+      ""user"": ""Yeh film kis baare mein hai?"",
+      ""agent"": ""'Prem Ki Shaadi' ek couple ki kahani hai jo shaadi ke concept se struggle karte hain, aur is journey mein kaise unka pyaar aur bhi gehra hota hai. Film mein comedy aur emotions ka perfect blend hai.""
+    },
+    {
+      ""user"": ""Sounds cute and fun. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Radhika ji. Enjoy the laughter and romance!""
+    }
+  ],
+  ""movies"": [""Prem Ki Shaadi""]
+}"
+84,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Raj hai."",
+      ""agent"": ""Raj ji, aapse milkar achha laga. Aaj kal aap kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe horror films pasand hain, kuch creepy dekhna chahta hoon."",
+      ""agent"": ""'Ghost Stories' dekh kar dekhiye. Yeh ek anthology horror film hai jisme creepy aur unsettling stories hain jo aapko darane mein safal rahengi.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Ghost Stories' ek anthology film hai jisme 4 different directors ne apne apne horror stories batayi hain. Har ek story mein alag angle aur creepy elements hain, jo horror genre ke fans ke liye perfect hai.""
+    },
+    {
+      ""user"": ""Sounds like a great pick for a spooky night. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Raj ji. Enjoy the chills!""
+    }
+  ],
+  ""movies"": [""Ghost Stories""]
+}
+"
+85,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Aarav hai."",
+      ""agent"": ""Aarav ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe action-packed aur intense stories pasand hain."",
+      ""agent"": ""'Pushpa: The Rule - Part 2' aapke liye ek dhamakedar choice hogi. Isme high-octane action aur gripping storyline hai jo aapko edge-of-the-seat par rakhegi.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Pushpa: The Rule - Part 2' Allu Arjun ki blockbuster 'Pushpa: The Rise' ka sequel hai. Isme Pushpa ke journey aur uske rule ko aur bhi intense aur thrilling andaaz mein dikhaya gaya hai.""
+    },
+    {
+      ""user"": ""Sounds exciting! I'll definitely watch it."",
+      ""agent"": ""Aarav ji, yeh film aapko action aur drama ka full dose degi. Enjoy the adrenaline rush!""
+    }
+  ],
+  ""movies"": [""Pushpa: The Rule - Part 2""]
+}"
+86,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Ankit hai."",
+      ""agent"": ""Ankit ji, aapse milkar khushi hui. Aap aaj kal kis tarah ki filmein dekhna pasand karenge?""
+    },
+    {
+      ""user"": ""Mujhe fun, entertaining filmein dekhna pasand hai, jisme thoda romance aur comedy ho."",
+      ""agent"": ""'Main Hoon Na' aapke liye ek perfect choice hai. Yeh film ek entertaining mix hai comedy, romance, aur action ka.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Main Hoon Na' Shah Rukh Khan ki lead role mein ek masala entertainer hai. Isme action, comedy, aur college romance ka zabardast combination hai. Farah Khan ka directorial debut bhi hai yeh film.""
+    },
+    {
+      ""user"": ""Sounds like a complete package! I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Ankit ji. Enjoy the entertainment!""
+    }
+  ],
+  ""movies"": [""Main Hoon Na""]
+}
+"
+87,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi there!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Meera hai."",
+      ""agent"": ""Meera ji, aapse milkar khushi hui. Aaj kal aap kis type ki filmein dekhne ka mann bana rahi hain?""
+    },
+    {
+      ""user"": ""Mujhe patriotic aur intense love stories pasand hain."",
+      ""agent"": ""'Gadar: Ek Prem Katha' aapke liye ek classic choice hogi. Yeh film ek emotional love story ke saath deshbhakti ka zabardast mix hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Gadar: Ek Prem Katha' Sunny Deol aur Amisha Patel ki lead roles mein ek epic love story hai jo India-Pakistan partition ke backdrop mein set hai. Yeh film pyaar, sacrifice, aur deshbhakti ko acchi tarah se portray karti hai.""
+    },
+    {
+      ""user"": ""Sounds powerful. I'll definitely watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Meera ji. Enjoy the emotional journey!""
+    }
+  ],
+  ""movies"": [""Gadar: Ek Prem Katha""]
+}
+"
+88,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Kunal hai."",
+      ""agent"": ""Kunal ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhna chahenge?""
+    },
+    {
+      ""user"": ""Mujhe sports-based inspirational filmein pasand hain."",
+      ""agent"": ""'Chak De! India' aapke liye ek behtareen choice hogi. Yeh ek inspirational sports drama hai jo aapko motivate karega.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Chak De! India' Shah Rukh Khan ki lead role mein ek motivating story hai. Yeh film women's hockey team ke struggles aur ek coach ke unke saath journey ko dikhati hai. Yeh ek must-watch film hai for all sports lovers.""
+    },
+    {
+      ""user"": ""Sounds like a great movie! I'll definitely watch it."",
+      ""agent"": ""Aapko yeh film zaroor inspire karegi, Kunal ji. Enjoy the motivation!""
+    }
+  ],
+  ""movies"": [""Chak De! India""]
+}"
+89,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Riya hai."",
+      ""agent"": ""Riya ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe romantic drama filmein pasand hain, jisme thoda intensity ho."",
+      ""agent"": ""'Mohabbatein' aapke liye perfect choice hogi. Yeh film romance aur emotions se bhari hui hai.""
+    },
+    {
+      ""user"": ""Yeh film kaise hai?"",
+      ""agent"": ""'Mohabbatein' mein Shah Rukh Khan aur Amitabh Bachchan lead roles mein hain. Yeh film love aur discipline ke beech ke conflict ko dikhati hai, aur kaise pyaar ke liye ladna zaroori hota hai.""
+    },
+    {
+      ""user"": ""Sounds interesting. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Riya ji. Enjoy the romantic drama!""
+    }
+  ],
+  ""movies"": [""Mohabbatein""]
+}
+"
+90,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Aman hai."",
+      ""agent"": ""Aman ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe superhero filmein dekhna pasand hai, kuch action aur sci-fi ho to maza aa jayega."",
+      ""agent"": ""'Krrish 3' dekh kar dekhiye. Yeh ek thrilling superhero film hai jisme action aur sci-fi ka zabardast combination hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Krrish 3' Hrithik Roshan ki popular Krrish franchise ka third installment hai. Isme superhero action sequences, sci-fi elements, aur VFX effects ka behtareen blend hai.""
+    },
+    {
+      ""user"": ""Sounds exciting! I'll watch it soon."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Aman ji. Enjoy the superhero action!""
+    }
+  ],
+  ""movies"": [""Krrish 3""]
+}"
+91,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Nisha hai."",
+      ""agent"": ""Nisha ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe intense love stories pasand hain, jisme strong emotions ho."",
+      ""agent"": ""'Kabir Singh' aapke liye ek acchi choice hogi. Yeh film intense love aur heartbreak ke aas-paas ghoomti hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Kabir Singh' Shahid Kapoor ki ek strong performance hai. Yeh film ek passionate aur self-destructive love story hai jisme emotions ka raw portrayal hai.""
+    },
+    {
+      ""user"": ""Sounds intense! I'll give it a watch."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Nisha ji. Enjoy the emotional ride!""
+    }
+  ],
+  ""movies"": [""Kabir Singh""]
+}
+"
+92,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Rahul hai."",
+      ""agent"": ""Rahul ji, aapse milkar khushi hui. Aap aaj kal kis tarah ki filmein dekhne ka mann bana rahe hain?""
+    },
+    {
+      ""user"": ""Mujhe romantic aur entertaining filmein pasand hain, jisme thoda action bhi ho.""
+    },
+    {
+      ""agent"": ""'Dilwale' dekh kar dekhiye. Yeh film ek zabardast mix hai romance, comedy, aur action ka. Isme Shah Rukh Khan aur Kajol ki iconic jodi bhi hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Dilwale' Rohit Shetty ki direction mein bani ek masala entertainer hai. Isme romance ke saath high-octane action scenes bhi hain, jo aapko zaroor pasand aayenge.""
+    },
+    {
+      ""user"": ""Sounds like a fun watch. I'll check it out."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Rahul ji. Enjoy the mix of romance and action!""
+    }
+  ],
+  ""movies"": [""Dilwale""]
+}
+"
+93,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Simran hai."",
+      ""agent"": ""Simran ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhna pasand karengi?""
+    },
+    {
+      ""user"": ""Mujhe family drama aur comedy pasand hai.""
+    },
+    {
+      ""agent"": ""'Jug Jugg Jeeyo' ek perfect family entertainer hai. Isme comedy aur emotions ka zabardast combination hai.""
+    },
+    {
+      ""user"": ""Yeh film kaise hai?"",
+      ""agent"": ""'Jug Jugg Jeeyo' ek modern family drama hai jisme shaadi aur rishton ke ups and downs ko dikhaya gaya hai. Isme comedy ke saath emotional moments bhi hain.""
+    },
+    {
+      ""user"": ""Sounds heartwarming. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Simran ji. Enjoy the family drama!""
+    }
+  ],
+  ""movies"": [""Jug Jugg Jeeyo""]
+}
+"
+94,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Arjun hai."",
+      ""agent"": ""Arjun ji, aapse milkar khushi hui. Aap aaj kal kis tarah ki filmein dekhna pasand karenge?""
+    },
+    {
+      ""user"": ""Mujhe inspiring aur music-based filmein pasand hain.""
+    },
+    {
+      ""agent"": ""'Gully Boy' aapke liye ek behtareen choice hogi. Yeh ek inspirational story hai jo rap music aur street culture ke background mein set hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Gully Boy' ek coming-of-age story hai jo ek aspiring rapper ki kahani dikhati hai. Ranveer Singh aur Alia Bhatt ki performances aapko zaroor impress karengi.""
+    },
+    {
+      ""user"": ""Sounds inspiring. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Arjun ji. Enjoy the beats and inspiration!""
+    }
+  ],
+  ""movies"": [""Gully Boy""]
+}
+"
+95,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Kaise hain aap? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Ayesha hai."",
+      ""agent"": ""Ayesha ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe fun aur light-hearted filmein dekhna pasand hai.""
+    },
+    {
+      ""agent"": ""'Chennai Express' aapke liye ek perfect choice hai. Yeh film comedy, action, aur romance ka zabardast mix hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Chennai Express' Shah Rukh Khan aur Deepika Padukone ki fun-filled adventure story hai. Isme South Indian culture ke elements bhi hain jo film ko aur bhi interesting banate hain.""
+    },
+    {
+      ""user"": ""Sounds like a fun watch. I'll check it out."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Ayesha ji. Enjoy the ride!""
+    }
+  ],
+  ""movies"": [""Chennai Express""]
+}
+"
+96,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Vivek hai."",
+      ""agent"": ""Vivek ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe high-octane action films pasand hain.""
+    },
+    {
+      ""agent"": ""'War' dekh kar dekhiye. Yeh ek high-octane action thriller hai jisme Hrithik Roshan aur Tiger Shroff ke behtareen action sequences hain.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'War' ek intense action-packed film hai jisme betrayal, suspense, aur mind-blowing stunts ka zabardast combination hai. Hrithik aur Tiger ki jodi aapko zaroor impress karegi.""
+    },
+    {
+      ""user"": ""Sounds thrilling! I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Vivek ji. Enjoy the action!""
+    }
+  ],
+  ""movies"": [""War""]
+}
+"
+97,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Karan hai."",
+      ""agent"": ""Karan ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhna pasand karenge?""
+    },
+    {
+      ""user"": ""Mujhe light-hearted aur youth-centric filmein dekhna pasand hai.""
+    },
+    {
+      ""agent"": ""'Student of the Year 2' dekh kar dekhiye. Yeh ek fun and youthful film hai jisme campus life aur competitions ko dikhaya gaya hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Student of the Year 2' ek campus drama hai jisme romance, competition, aur youthful energy ka zabardast combination hai. Tiger Shroff aur Ananya Pandey ne lead roles mein shandar performances di hain.""
+    },
+    {
+      ""user"": ""Sounds fun! I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Karan ji. Enjoy the campus vibes!""
+    }
+  ],
+  ""movies"": [""Student of the Year 2""]
+}
+"
+98,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Kya main aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Meera hai."",
+      ""agent"": ""Meera ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe emotionally intense aur period drama type ki filmein pasand hain.""
+    },
+    {
+      ""agent"": ""'Qala' ek behtareen choice hogi aapke liye. Yeh film ek intense period drama hai jisme emotions ka zabardast portrayal hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Qala' ek deep emotional drama hai jo 1940s ke music industry ke backdrop par set hai. Tripti Dimri ki performance isme lajawab hai.""
+    },
+    {
+      ""user"": ""Sounds intriguing. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Meera ji. Enjoy the emotional journey!""
+    }
+  ],
+  ""movies"": [""Qala""]
+}
+"
+99,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Rohit hai."",
+      ""agent"": ""Rohit ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhne ka mann hai?""
+    },
+    {
+      ""user"": ""Mujhe crime dramas aur mystery pasand hain.""
+    },
+    {
+      ""agent"": ""'Talvar' ek gripping crime drama hai jo real-life incident par based hai. Isme mystery aur investigation ka zabardast blend hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Talvar' ek real-life murder case par based film hai. Isme Irrfan Khan ne ek investigating officer ka role play kiya hai jo aapko zaroor impress karega.""
+    },
+    {
+      ""user"": ""Sounds intense. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Rohit ji. Enjoy the mystery!""
+    }
+  ],
+  ""movies"": [""Talvar""]
+}"
+100,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Ankit hai."",
+      ""agent"": ""Ankit ji, aapse milkar khushi hui. Aapko kis tarah ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe light-hearted comedy films pasand hain.""
+    },
+    {
+      ""agent"": ""'Fukrey 3' ek perfect comedy entertainer hai. Agar aapko fun aur quirky characters pasand hain, to yeh film aapke liye hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Fukrey 3' hilarious comedy situations aur quirky characters ka combination hai. Isme Fukrey gang apne naye adventure par hai jo aapko hasne par majboor kar dega.""
+    },
+    {
+      ""user"": ""Sounds fun! I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Ankit ji. Enjoy the comedy!""
+    }
+  ],
+  ""movies"": [""Fukrey 3""]
+}
+"
+101,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam jaan sakta hoon?""
+    },
+    {
+      ""user"": ""Mera naam Pooja hai."",
+      ""agent"": ""Pooja ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhne ka mann bana rahi hain?""
+    },
+    {
+      ""user"": ""Mujhe thrillers aur suspenseful stories pasand hain.""
+    },
+    {
+      ""agent"": ""'Dangerous' ek gripping thriller hai jo aapko suspense ke saath edge-of-the-seat experience dega.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Dangerous' ek psychological thriller hai jisme twists aur turns ka zabardast combination hai. Isme suspense ka element last tak bana rahega.""
+    },
+    {
+      ""user"": ""Sounds intense. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Pooja ji. Enjoy the thriller!""
+    }
+  ],
+  ""movies"": [""Dangerous""]
+}
+"
+102,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Kunal hai."",
+      ""agent"": ""Kunal ji, aapse milkar khushi hui. Aap aaj kal kis tarah ki filmein dekhna pasand karenge?""
+    },
+    {
+      ""user"": ""Mujhe action-packed aur entertaining filmein pasand hain.""
+    },
+    {
+      ""agent"": ""'Bang Bang' dekh kar dekhiye. Yeh ek high-octane action entertainer hai jisme Hrithik Roshan aur Katrina Kaif ne shandar performances di hain.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Bang Bang' ek action-packed film hai jisme international level ke stunts aur exotic locations hain. Hrithik aur Katrina ki chemistry bhi isme lajawab hai.""
+    },
+    {
+      ""user"": ""Sounds exciting. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Kunal ji. Enjoy the action!""
+    }
+  ],
+  ""movies"": [""Bang Bang""]
+}
+"
+103,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Vikram hai."",
+      ""agent"": ""Vikram ji, aapse milkar khushi hui. Aap aaj kal kis type ki filmein dekhne ka mann bana rahe hain?""
+    },
+    {
+      ""user"": ""Mujhe historical aur thought-provoking films pasand hain.""
+    },
+    {
+      ""agent"": ""'Hey Ram' ek powerful historical drama hai jo India ke independence ke time par based hai. Yeh film deeply thought-provoking hai.""
+    },
+    {
+      ""user"": ""Yeh film kaisi hai?"",
+      ""agent"": ""'Hey Ram' Kamal Haasan ki ek bold aur controversial film hai jo partition aur communalism ke sensitive issues ko address karti hai. Iski narrative style aur performances aapko zaroor engage karengi.""
+    },
+    {
+      ""user"": ""Sounds intense. I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Vikram ji. Enjoy the historical drama!""
+    }
+  ],
+  ""movies"": [""Hey Ram""]
+}
+"
+104,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Ritu hai."",
+      ""agent"": ""Ritu ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe sports dramas aur inspirational films pasand hain."",
+      ""agent"": ""'83' aapke liye ek acchi choice hai. Yeh film ek inspirational sports drama hai.""
+    },
+    {
+      ""user"": ""Yeh film kis baare mein hai?"",
+      ""agent"": ""'83' 1983 ke Cricket World Cup ki historic victory par based hai. Film mein Indian cricket team ki journey aur unki achievements ko dikhaya gaya hai.""
+    },
+    {
+      ""user"": ""Sounds inspiring! I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Ritu ji. Enjoy the inspirational sports drama!""
+    }
+  ],
+  ""movies"": [""83""]
+}
+"
+105,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Karan hai."",
+      ""agent"": ""Karan ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe comedy aur light-hearted films pasand hain."",
+      ""agent"": ""'Selfiee' aapke liye ek acchi choice hogi. Yeh film comedy aur light-hearted moments se bhari hui hai.""
+    },
+    {
+      ""user"": ""Yeh film kis baare mein hai?"",
+      ""agent"": ""'Selfiee' ek comedy film hai jo ek humorous take ko explore karti hai. Film mein fun aur laughter ka accha dose hai.""
+    },
+    {
+      ""user"": ""Sounds fun! I'll give it a try."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Karan ji. Enjoy the comedy and light moments!""
+    }
+  ],
+  ""movies"": [""Selfiee""]
+}
+"
+106,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai."",
+      ""agent"": ""Priya ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe romantic aur emotional films pasand hain."",
+      ""agent"": ""'Veer-Zaara' aapke liye ek behtareen choice hai. Yeh film ek touching romance aur emotional drama hai.""
+    },
+    {
+      ""user"": ""Yeh film kis baare mein hai?"",
+      ""agent"": ""'Veer-Zaara' Shah Rukh Khan aur Preity Zinta ki lead roles mein hai. Yeh film ek love story hai jo India aur Pakistan ke beech ki boundaries ko explore karti hai.""
+    },
+    {
+      ""user"": ""Sounds heartwarming! I'll watch it."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Priya ji. Enjoy the touching romance and emotional drama!""
+    }
+  ],
+  ""movies"": [""Veer-Zaara""]
+}
+"
+107,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Priya hai."",
+      ""agent"": ""Priya ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe emotional aur thought-provoking films pasand hain."",
+      ""agent"": ""'Laal Singh Chaddha' aapke liye ek acchi choice ho sakti hai. Yeh ek emotional aur inspiring kahani hai jo Aamir Khan ke behtareen performance ke saath aati hai.""
+    },
+    {
+      ""user"": ""Yeh film kis baare mein hai?"",
+      ""agent"": ""'Laal Singh Chaddha' ek manav ki inspiring journey ko dikhati hai jo apni simplicity aur innocence se zindagi ke challenges ko paar karta hai. Yeh film 'Forrest Gump' ka official remake hai.""
+    },
+    {
+      ""user"": ""Wah, yeh interesting lag rahi hai. Kuch aur recommend karenge?"",
+      ""agent"": ""Agar aapko light-hearted aur entertaining films pasand hain, toh 'PK' try kariye. Aamir Khan ka unique character aur social commentary aapko zaroor pasand aayegi. Agar action aur revenge ki kahani chahiye, toh 'Ghajini' bhi ek zabardast option hai.""
+    },
+    {
+      ""user"": ""Mujhe emotional aur thoda inspiring type ke films hi dekhni hain."",
+      ""agent"": ""Toh fir 'Laal Singh Chaddha' aapko perfect lagegi. Agar aap thoda romance aur fun explore karna chahti hain toh 'Ishq' bhi ek entertaining aur sweet film hai.""
+    },
+    {
+      ""user"": ""Laal Singh Chaddha sahi lag rahi hai, main yeh dekhungi."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Priya ji. Enjoy the emotional and inspiring journey!""
+    }
+  ],
+  ""movies"": [""Laal Singh Chaddha"", ""PK"", ""Ghajini"", ""Ishq""]
+}"
+108,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste!"",
+      ""agent"": ""Namaste! Main aapki kaise madad kar sakta hoon? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Rahul hai."",
+      ""agent"": ""Rahul ji, aapse milkar accha laga. Aapko kis tarah ki filmein pasand hain?""
+    },
+    {
+      ""user"": ""Mujhe romantic aur dil choo lene wali filmein pasand hain."",
+      ""agent"": ""Phir 'Kabhi Khushi Kabhi Gham' ek behtareen vikalp ho sakta hai. Yeh ek sundar prem kahani hai jismein Amitabh Bachchan aur Shahrukh Khan ne adbhut abhinay kiya hai.""
+    },
+    {
+      ""user"": ""Is film mein kya khaas hai?"",
+      ""agent"": ""'Kabhi Khushi Kabhi Gham' parivaar, prem aur tyaag ki gehri bhavnaon ko dikhati hai. Iski sangeet aur kahani sabhi ko akarshit karti hai.""
+    },
+    {
+      ""user"": ""Bahut badhiya. Dhanyavaad!"",
+      ""agent"": ""Aapka swagat hai, Rahul ji. Film ka anand lein!""
+    }
+  ],
+  ""movies"": [""Kabhi Khushi Kabhi Gham"", ""Jab We Met"", ""Yeh Jawaani Hai Deewani"", ""Dilwale""]
+}"
+109,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Aap kaise hain? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Anjali hai."",
+      ""agent"": ""Anjali ji, aapse milkar khushi hui. Aap action filmon mein ruchi rakhti hain?""
+    },
+    {
+      ""user"": ""Haan, mujhe action aur thriller filmein pasand hain."",
+      ""agent"": ""Toh 'Shershaah' aapke liye ek shandaar vikalp ho sakta hai. Yeh ek tez action film hai jismein Siddharth Tundulkar ne behtareen bhumika nibhayi hai.""
+    },
+    {
+      ""user"": ""Kya yeh film kisi kahani par aadharit hai?"",
+      ""agent"": ""'Shershaah' ek prernadayak kahani hai jo ek saadharan aadmi ke sangharsh aur vijay ko dikhati hai.""
+    },
+    {
+      ""user"": ""Sunkar accha laga, main ise dekhungi."",
+      ""agent"": ""Aasha hai aapko film pasand aayegi, Anjali ji. Anand lein!""
+    }
+  ],
+  ""movies"": [""Shershaah"", ""Baaghi"", ""Dham Dham"", ""Dhoni: The Untold Story""]
+}"
+110,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hi! Kaise ho? Mujhe aapka naam bataayein.""
+    },
+    {
+      ""user"": ""Mera naam Karan hai."",
+      ""agent"": ""Karan ji, milkar accha laga. Aap kaunsi filmein dekhna pasand karte hain?""
+    },
+    {
+      ""user"": ""Mujhe comedy filmein bahut pasand hain."",
+      ""agent"": ""Phir 'Hera Pheri' aapke liye ek behtareen vikalp ho sakta hai. Yeh ek classic comedy film hai jismein Sharat Khan aur Amol Palekar ne shandaar kaam kiya hai.""
+    },
+    {
+      ""user"": ""Is film mein kya mazedaar hai?"",
+      ""agent"": ""'Hera Pheri' mein mazedaar samvaad, behtareen timing aur manoranjak paristhitiyan hain jo aapko hansate-hansate lotpot kar dengi.""
+    },
+    {
+      ""user"": ""Dhanyavaad, main ise dekhoonga."",
+      ""agent"": ""Aapka swagat hai, Karan ji. Comedy ka anand lein!""
+    }
+  ],
+  ""movies"": [""Hera Pheri"", ""Golmaal"", ""Bodyguard"", ""Dhoom""]
+}"
+111,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaskar!"",
+      ""agent"": ""Namaskar! Main aapki kaise madad kar sakta hoon? Aapka naam bataayein.""
+    },
+    {
+      ""user"": ""Mera naam Seema hai."",
+      ""agent"": ""Seema ji, aapse milkar khushi hui. Kya aap science fiction filmon mein ruchi rakhti hain?""
+    },
+    {
+      ""user"": ""Haan, mujhe science fiction pasand hai."",
+      ""agent"": ""Toh 'Gagan Gatha' aapke liye ek behtareen vikalp ho sakta hai. Ismein Ranveer Singh aur Alia Bhatt ne pramukh bhumikaayen nibhayi hain.""
+    },
+    {
+      ""user"": ""Is film mein kya advitiya hai?"",
+      ""agent"": ""'Gagan Gatha' mein unnath vishesh prabhav, rochak kahani aur bhavishya ki duniya ka adbhut chitran hai jo aapko mantramugdh kar dega.""
+    },
+    {
+      ""user"": ""Bahut accha, main ise dekhna chahti hoon."",
+      ""agent"": ""Aasha hai aapko film pasand aayegi, Seema ji. Anand lein!""
+    }
+  ],
+  ""movies"": [""Gagan Gatha"", ""Stree"", ""Brahmand"", ""Aakash""]
+}
+"
+112,"{
+  ""conversation"": [
+    {
+      ""user"": ""Salaam!"",
+      ""agent"": ""Salaam! Aap kaise hain? Mujhe aapka naam bataayein.""
+    },
+    {
+      ""user"": ""Mera naam Amit hai."",
+      ""agent"": ""Amit ji, aapse milkar khushi hui. Kya aap documentary filmein dekhna pasand karte hain?""
+    },
+    {
+      ""user"": ""Haan, mujhe gyanvardhak filmein pasand hain."",
+      ""agent"": ""Toh 'Prithvi: Ek Adbhut Yatra' aapke liye ek utkrist vikalp ho sakta hai. Yeh film prakritik duniya ki sundarta aur vividhta ko dikhati hai.""
+    },
+    {
+      ""user"": ""Is film mein kya dekhne ko milega?"",
+      ""agent"": ""'Prithvi: Ek Adbhut Yatra' mein khoobsurat drishyon, vaigyanik tathyon aur prernadayak kahaniyon ka mishran hai jo aapko prakriti ke prati jagrook karega.""
+    },
+    {
+      ""user"": ""Dhanyavaad, main ise dekhoonga."",
+      ""agent"": ""Aapka swagat hai, Amit ji. Film ka anand lein!""
+    }
+  ],
+  ""movies"": [""Prithvi: Ek Adbhut Yatra"", ""Satyamev Jayate"", ""Jeevan Ke Rang"", ""Samudra Ki Gehrai""]
+}"
+113,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste!"",
+      ""agent"": ""Namaste! Main aapki kaise madad kar sakta hoon? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Sohail hai."",
+      ""agent"": ""Sohail ji, aapse milkar khushi hui. Aap kis prakar ki filmein dekhna pasand karte hain?""
+    },
+    {
+      ""user"": ""Maine haal hi mein 'Dunki Dunki' aur 'Baaghi' dekhi hain. Mujhe dono pasand aayi.""
+    },
+    {
+      ""agent"": ""Agar aapko 'Dunki Dunki' aur 'Baaghi' pasand aayi hain, toh shayad 'Bodyguard' aapke liye ek accha vikalp ho sakta hai. Ismein Salman Khan ki dhamakedaar action aur romance hai.""
+    },
+    {
+      ""user"": ""Bodyguard acchi lag rahi hai, dhanyavaad!"",
+      ""agent"": ""Aapka swagat hai, Sohail ji. Film ka anand lein!""
+    }
+  ],
+  ""movies"": [""Dunki Dunki"", ""Baaghi"", ""Bodyguard"", ""Sultan""]
+}
+"
+114,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hi! Kaise ho? Mujhe aapka naam bataayein.""
+    },
+    {
+      ""user"": ""Mera naam Seema hai."",
+      ""agent"": ""Seema ji, milkar accha laga. Aap kaunsi filmein dekhna pasand karti hain?""
+    },
+    {
+      ""user"": ""Mujhe romantic aur dil choo lene wali filmein pasand hain."",
+      ""agent"": ""Phir 'Jab Harry Met Sejal' ek behtareen vikalp ho sakta hai. Yeh ek sundar prem kahani hai jismein Katrina Kaif aur Shahid Kapoor ne shandaar abhinay kiya hai.""
+    },
+    {
+      ""user"": ""Dhanyavaad, main ise zaroor dekhungi!"",
+      ""agent"": ""Aapka swagat hai, Seema ji. Film ka anand lein!""
+    }
+  ],
+  ""movies"": [""Jab Harry Met Sejal"", ""Kuch Kuch Hota Hai"", ""Dilwale"", ""Tum Hi Ho""]
+}
+"
+115,"{
+  ""conversation"": [
+    {
+      ""user"": ""Salaam!"",
+      ""agent"": ""Salaam! Aap kaise hain? Mujhe aapka naam bataayein.""
+    },
+    {
+      ""user"": ""Mera naam Amit hai."",
+      ""agent"": ""Amit ji, aapse milkar khushi hui. Aap kaunsi filmein dekhna pasand karte hain?""
+    },
+    {
+      ""user"": ""Maine 'Gully Boy' aur 'Salaam Bombay' dekhi hain. Mujhe in dono ne bahut prabhavit kiya.""
+    },
+    {
+      ""agent"": ""Agar aapko 'Gully Boy' aur 'Salaam Bombay' pasand aayi hain, toh 'Taare Zameen Par' aapke liye upyukt ho sakta hai. Yeh ek sanvedansheel aur prernadayak kahani hai.""
+    },
+    {
+      ""user"": ""Bahut badhiya sujhav hai, dhanyavaad!"",
+      ""agent"": ""Aapka swagat hai, Amit ji. Film ka anand lein!""
+    }
+  ],
+  ""movies"": [""Gully Boy"", ""Salaam Bombay"", ""Taare Zameen Par"", ""Dangal""]
+}
+"
+116,"{
+  ""conversation"": [
+    {
+      ""user"": ""Namaste!"",
+      ""agent"": ""Namaste! Main aapki kaise sahayata kar sakta hoon? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Anjali hai."",
+      ""agent"": ""Anjali ji, aapse milkar khushi hui. Aap kis prakar ki filmein dekhna pasand karti hain?""
+    },
+    {
+      ""user"": ""Mujhe action aur thriller filmein pasand hain."",
+      ""agent"": ""Toh 'Singham' aapke liye ek shandaar vikalp ho sakta hai. Ismein Sikandar aur Tiger Shroff ne behtareen abhinay kiya hai.""
+    },
+    {
+      ""user"": ""Kya ismein khaas action scene hain?"",
+      ""agent"": ""Bilkul, 'Singham' mein uchit gunvatta wale action sequences aur tez kahani hai jo aapko bandhe rakhegi.""
+    },
+    {
+      ""user"": ""Bahut accha, main ise dekhungi."",
+      ""agent"": ""Aasha hai aapko film pasand aayegi, Anjali ji. Anand lein!""
+    }
+  ],
+  ""movies"": [""Singham"", ""Baaghi"", ""Dhoni: The Untold Story"", ""Dabangg""]
+}"
+117,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hi! Kaise ho? Mujhe aapka naam bataayein.""
+    },
+    {
+      ""user"": ""Mera naam Karan hai."",
+      ""agent"": ""Karan ji, milkar accha laga. Aap kaunsi filmein dekhna pasand karte hain?""
+    },
+    {
+      ""user"": ""Maine 'Hera Pheri' aur 'Golmaal' dekhi hain. Mujhe dono ne khoob hasaya.""
+    },
+    {
+      ""agent"": ""Agar aapko 'Hera Pheri' aur 'Golmaal' pasand aayi hain, toh 'Bhool Bhulaiyaa' aapke liye ek mazedaar vikalp ho sakta hai. Yeh comedy-thriller mishrit shaili mein bani hai.""
+    },
+    {
+      ""user"": ""Woh bhi dekhunga, dhanyavaad!"",
+      ""agent"": ""Aapka swagat hai, Karan ji. Film ka anand lein!""
+    }
+  ],
+  ""movies"": [""Hera Pheri"", ""Golmaal"", ""Bhool Bhulaiyaa"", ""Dhoom""]
+}"
+118,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Vikram hai."",
+      ""agent"": ""Vikram ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe action aur comedy films pasand hain."",
+      ""agent"": ""'Dhamaal' aur 'Dishoom' dono aapke liye behtareen choices hain. Kya aapko zyada comedy chahiye ya action?""
+    },
+    {
+      ""user"": ""Mujhe dono chahiye!"",
+      ""agent"": ""'Dhamaal' ek hilarious comedy hai, jabki 'Dishoom' action aur adventure ka zabardast mix hai, jisme aapko thrilling moments milenge.""
+    },
+    {
+      ""user"": ""Yeh dono movies kis baare mein hain?"",
+      ""agent"": ""'Dhamaal' chaar dost hain jo paisa jeetne ke liye ghumte hain, jabki 'Dishoom' do policemen ki kahani hai jo ek chori ki talash mein hain.""
+    },
+    {
+      ""user"": ""Sounds great! Kya aap aur suggestions de sakte hain?"",
+      ""agent"": ""Bilkul! 'A Flying Jatt' bhi ek mazedaar film hai jisme Tiger Shroff superhero ban kar adventure karta hai. Aur 'Dharam Veer' classic action-comedy hai jisme dosti aur heroism dikhaya gaya hai.""
+    },
+    {
+      ""user"": ""In sab movies mein se main kaun si pehle dekhun?"",
+      ""agent"": ""Mujhe lagta hai aap 'Dhamaal' se shuru kar sakte hain, kyunki yeh aapko hansne aur maze karne ka mauka degi. Phir aap 'Dishoom' aur 'A Flying Jatt' dekh sakte hain!""
+    },
+    {
+      ""user"": ""Perfect! I'll start with Dhamaal."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Vikram ji. Enjoy the laughter and the action-packed adventures!""
+    }
+  ],
+  ""movies"": [""A Flying Jatt"", ""Dhamaal"", ""Dishoom"", ""Dharam Veer""]
+}"
+119,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Riya hai."",
+      ""agent"": ""Riya ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe action aur drama films pasand hain."",
+      ""agent"": ""'Chennai Express', 'Student of the Year 2', aur 'Main Hoon Na' aapke liye behtareen choices hain!""
+    },
+    {
+      ""user"": ""Yeh films kis baare mein hain?"",
+      ""agent"": ""'Chennai Express' ek action-comedy hai jisme Shah Rukh Khan aur Deepika Padukone ki kahani hai. 'Student of the Year 2' ek college drama hai jo dosti aur competition par adharit hai. Aur 'Main Hoon Na' ek action-drama hai jisme ek soldier apne mission ko pura karta hai.""
+    },
+    {
+      ""user"": ""Sab sunke acha laga! Kaunsi dekhun pehle?"",
+      ""agent"": ""'Chennai Express' se shuru karna zaroori hai, kyunki isme action aur comedy ka perfect blend hai. Phir aap 'Main Hoon Na' aur 'Student of the Year 2' dekh sakte hain!""
+    },
+    {
+      ""user"": ""Great! I'll start with Chennai Express."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Riya ji. Enjoy the fun and action!""
+    }
+  ],
+  ""movies"": [""Chennai Express"", ""Student of the Year 2"", ""Main Hoon Na""]
+}"
+120,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Rahul hai."",
+      ""agent"": ""Rahul ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe action aur drama films pasand hain."",
+      ""agent"": ""'Bodyguard' aur 'Housefull 4' aapke liye zabardast choices hain!""
+    },
+    {
+      ""user"": ""Yeh films kis baare mein hain?"",
+      ""agent"": ""'Bodyguard' ek action-drama hai jisme Salman Khan apne duty ko pura karta hai aur pyaar bhi karta hai. 'Housefull 4' ek comedy-drama hai jisme dosti aur pyaar ka zabardast milan dikhaya gaya hai, lekin saath mein action bhi hai.""
+    },
+    {
+      ""user"": ""Kya yeh films entertaining hain?"",
+      ""agent"": ""Bilkul! 'Bodyguard' mein action aur romance ka acha mix hai, aur 'Housefull 4' aapko hansne par majboor karegi. Dono films dekhne layak hain!""
+    },
+    {
+      ""user"": ""Sounds fun! Kaunsi pehle dekhun?"",
+      ""agent"": ""'Bodyguard' se shuru karna accha rahega, phir aap 'Housefull 4' dekh sakte hain!""
+    },
+    {
+      ""user"": ""Perfect! I'll start with Bodyguard."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Rahul ji. Enjoy the action and comedy!""
+    }
+  ],
+  ""movies"": [""Bodyguard"", ""Housefull 4""]
+}
+"
+121,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Ankit hai."",
+      ""agent"": ""Ankit ji, aapse milkar khushi hui. Aapko kis type ki filmein dekhna pasand hai?""
+    },
+    {
+      ""user"": ""Mujhe action aur comedy films pasand hain."",
+      ""agent"": ""Toh aapko *Singham Returns* aur *Golmaal Returns* zaroor dekhni chahiye!""
+    },
+    {
+      ""user"": ""Yeh dono films kis baare mein hain?"",
+      ""agent"": ""*Singham Returns* ek action film hai jisme Ajay Devgn ek imaan daar police officer ka kirdar nibhate hain, jo crime ko khatam karne ke liye tayyar hai. Is film mein intense action sequences hain aur justice ki ladai dikhai gayi hai.""
+    },
+    {
+      ""user"": ""Aur *Golmaal Returns*?"",
+      ""agent"": ""*Golmaal Returns* ek comedy film hai jisme Ajay Devgn ek fun-loving character hai jo apne doston ke saath hilarious situations mein phas jaata hai. Is film mein humor, dosti, aur light-hearted moments hain.""
+    },
+    {
+      ""user"": ""Toh dono films mein Ajay Devgn ka kya role hai?"",
+      ""agent"": ""Dono films mein Ajay Devgn ka character bilkul alag hai. *Singham Returns* mein wo serious aur responsible hai, jabki *Golmaal Returns* mein wo fun-loving aur carefree hai. Yeh contrasting roles unki versatility ko dikhate hain.""
+    },
+    {
+      ""user"": ""Kaisi movie dekhun pehle?"",
+      ""agent"": ""Agar aap action aur thrill chahte hain, toh *Singham Returns* se shuru karein. Lekin agar aap hasi mazak aur entertainment chahte hain, toh *Golmaal Returns* pehle dekhna better hoga.""
+    },
+    {
+      ""user"": ""Mujhe action dekhna hai, toh main *Singham Returns* se shuru karunga."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Ankit ji. Enjoy the action-packed moments!""
+    }
+  ],
+  ""movies"": [""Singham Returns"", ""Golmaal Returns""]
+}
+"
+122,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hey there!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Aisha hai."",
+      ""agent"": ""Aisha ji, aapse milkar khushi hui! Aapko kya dekhna pasand hai—action ya comedy?""
+    },
+    {
+      ""user"": ""Main comedy films dekhna pasand karti hoon, lekin kabhi-kabhi action bhi theek hai."",
+      ""agent"": ""Toh aapko *Housefull 3* aur *Khiladi 786* dekhne ka sochna chahiye. Dono films mein alag-alag maza hai.""
+    },
+    {
+      ""user"": ""Oh, mujhe in dono ke baare mein thoda aur bata sakte hain?"",
+      ""agent"": ""*Housefull 3* ek light-hearted comedy hai jisme teen dost aur unki love interests ki kahani hai. Yeh film aapko hansi aur dosti se bhari milegi, aur ismein bahut saare funny moments hain.""
+    },
+    {
+      ""user"": ""Aur *Khiladi 786* ka kya?"",
+      ""agent"": ""*Khiladi 786* ek unique action-comedy hai jisme Akshay Kumar ek undercover cop ka role nibhate hain. Is film mein action scenes ke saath-saath hilarious situations bhi hain, jisse aapko excitement aur hasi dono milegi.""
+    },
+    {
+      ""user"": ""Toh kya mujhe dono films dekhni chahiye?"",
+      ""agent"": ""Bilkul! Agar aapko mazak chahiye, toh shuruat *Housefull 3* se karein. Lekin agar aap action aur comedy ka mix chahte hain, toh *Khiladi 786* pehle dekh sakte hain.""
+    },
+    {
+      ""user"": ""Acha, main *Housefull 3* se shuru karungi."",
+      ""agent"": ""Yeh accha chunav hai, Aisha ji! Aapko yeh film bahut pasand aayegi. Enjoy the comedy!""
+    }
+  ],
+  ""movies"": [""Housefull 3"", ""Khiladi 786""]
+}
+"
+123,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi there!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Priyanka hai."",
+      ""agent"": ""Priyanka ji, aapse milkar khushi hui! Aapko kis type ki filmein pasand hain?""
+    },
+    {
+      ""user"": ""Mujhe Alia Bhatt ki filmein pasand hain. Kya aap mujhe kuch suggestions de sakte hain?""
+    },
+    {
+      ""agent"": ""Zaroor! Aapko *Dear Zindagi*, *Gangubai Kathiawadi*, aur *Student of the Year* dekhni chahiye. In sab mein Alia ka role alag hai.""
+    },
+    {
+      ""user"": ""Yeh films kis baare mein hain aur Alia ka role kya hai?""
+    },
+    {
+      ""agent"": ""*Dear Zindagi* mein, Alia ek young woman, Kaira, ka role nibhati hain jo apne life struggles ko samajhne aur apne emotions ko manage karne ki koshish karti hai. Yeh film ek coming-of-age story hai jisme wo ek therapist se guidance leti hai.""
+    },
+    {
+      ""user"": ""Aur *Gangubai Kathiawadi* mein?"",
+      ""agent"": ""Is film mein Alia ka role Gangubai ka hai, jo ek strong aur determined woman hai. Yeh kahani ek real-life figure ki hai jo prostitution se nikal kar apni identity aur power ko establish karti hai. Is role mein Alia kaafi intense aur powerful dikhai deti hain.""
+    },
+    {
+      ""user"": ""Mujhe *Student of the Year* ke baare mein bhi bataiye."",
+      ""agent"": ""Wahaan Alia ka role Shanaya hai, jo ek ambitious college student hai. Is film mein wo dosti, competition, aur romance ka ek light-hearted take dikhati hain. Yeh film unki film career ki shuruaat bhi hai, jahan unhone apne charming aur fun-loving side ko showcase kiya.""
+    },
+    {
+      ""user"": ""Toh Alia ka role kis tarah se alag hai in films mein?"",
+      ""agent"": ""Haan, *Dear Zindagi* mein wo ek emotionally vulnerable character hai, jabki *Gangubai Kathiawadi* mein wo ek fierce leader hai. *Student of the Year* mein wo zyada playful aur confident hain. Alia ki versatility in roles ko dekhna kaafi interesting hai!""
+    },
+    {
+      ""user"": ""Kaisi movie dekhun pehle?"",
+      ""agent"": ""Agar aapko serious aur emotional kahani pasand hai, toh *Dear Zindagi* se shuru karein. Lekin agar aapko strong character aur intense drama chahiye, toh *Gangubai Kathiawadi* best choice hogi. Aur *Student of the Year* thodi light-hearted entertainment ke liye hai!""
+    },
+    {
+      ""user"": ""Mujhe *Gangubai Kathiawadi* dekhna hai pehle."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi, Priyanka ji! Enjoy the powerful performance!""
+    }
+  ],
+  ""movies"": [""Dear Zindagi"", ""Gangubai Kathiawadi"", ""Student of the Year""]
+}"
+124,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Rohan hai."",
+      ""agent"": ""Rohan ji, aapse milkar khushi hui! Aapko kis type ki filmein pasand hain?""
+    },
+    {
+      ""user"": ""Mujhe Aditya Roy Kapur ki filmein pasand hain. Kya aap unki kuch filmein recommend kar sakte hain?""
+    },
+    {
+      ""agent"": ""Zaroor! Aapko *OK Jaanu*, *Aashiqui 2*, aur *Rocket Gang* dekhni chahiye. Har film mein Aditya ka role kaafi alag hai.""
+    },
+    {
+      ""user"": ""Yeh films kis baare mein hain aur unmein Aditya ka role kya hai?""
+    },
+    {
+      ""agent"": ""*OK Jaanu* mein, Aditya ek urban couple ke love story ka hissa hain. Unka character, Adi, ek young professional hai jo apni career ambitions aur pyaar ke beech struggle karta hai. Yeh ek modern-day romance hai jo commitment issues explore karti hai.""
+    },
+    {
+      ""user"": ""Aur *Aashiqui 2* mein unka role kaisa hai?"",
+      ""agent"": ""*Aashiqui 2* mein Aditya ka role Rahul Jaykar ka hai, jo ek talented lekin troubled singer hai. Yeh film unki emotional journey hai, jahan wo apne career aur personal demons se ladte hain, aur ismein ek intense romance aur tragedy ka mix hai.""
+    },
+    {
+      ""user"": ""Mujhe *Rocket Gang* ke baare mein bhi bataiye."",
+      ""agent"": ""*Rocket Gang* mein Aditya ek dance-based fantasy film ka hissa hain. Is film mein unka character ek fun-loving aur energetic persona dikhata hai, jisme dance aur adventure ka mix hai. Yeh ek family-friendly entertainer hai.""
+    },
+    {
+      ""user"": ""Toh Aditya ke roles kis tarah se alag hain in teen filmein?"",
+      ""agent"": ""*OK Jaanu* mein Aditya ek modern, carefree lover ka role nibha rahe hain, jabki *Aashiqui 2* mein wo ek emotionally broken aur passionate singer ka role hai. *Rocket Gang* mein unka character fun aur adventurous hai, jo kaafi alag vibe deta hai baaki films ke comparison mein.""
+    },
+    {
+      ""user"": ""Main kaunsi film pehle dekhun?"",
+      ""agent"": ""Agar aapko intense romance aur emotions dekhna pasand hai, toh *Aashiqui 2* pehle dekhein. Lekin agar aapko modern romance chahiye, toh *OK Jaanu* se shuru kar sakte hain. Aur *Rocket Gang* agar aapko light-hearted, fun entertainment chahiye toh best hai!""
+    },
+    {
+      ""user"": ""Mujhe intense emotions pasand hain, main *Aashiqui 2* dekhunga."",
+      ""agent"": ""Yeh accha chunav hai, Rohan ji! Enjoy the emotional and heartfelt journey!""
+    }
+  ],
+  ""movies"": [""OK Jaanu"", ""Aashiqui 2"", ""Rocket Gang""]
+}
+"
+125,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hi!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Amit hai."",
+      ""agent"": ""Amit ji, aapse milkar khushi hui! Kya aapko Akshay Kumar ki filmein pasand hain?""
+    },
+    {
+      ""user"": ""Haan, Akshay Kumar ki kaafi filmein dekhta hoon. Kya aap unki kuch recommend kar sakte hain?"",
+      ""agent"": ""Bilkul! Aapko *Bhagam Bhag*, *Bellbottom*, *Jolly LLB 2*, aur *Rustom* dekhni chahiye. Har ek film mein unka role aur genre alag hai.""
+    },
+    {
+      ""user"": ""Kaise alag hain unke roles?"",
+      ""agent"": ""*Bhagam Bhag* ek comedy film hai jisme Akshay Kumar ka character Bunty, ek funny aur mischief-loving person hota hai. Yeh film full-on comedy aur confusion se bhari hui hai. *Bellbottom* ek serious spy-thriller hai jisme unhone Anshul Malhotra ka role kiya hai, jo ek secret agent hai.""
+    },
+    {
+      ""user"": ""Aur *Jolly LLB 2* mein unka character kaisa hai?"",
+      ""agent"": ""*Jolly LLB 2* mein Akshay ek lawyer ka role nibha rahe hain jo corrupt legal system ke against fight karta hai. Yeh courtroom drama comedy ke saath serious social issues ko bhi address karti hai.""
+    },
+    {
+      ""user"": ""Yeh sab roles kitne alag hain!"",
+      ""agent"": ""Bilkul! In sab roles mein Akshay Kumar ki versatility dikhai deti hai. Aap comedy ke liye *Bhagam Bhag* dekh sakte hain, serious thriller ke liye *Bellbottom*, courtroom drama ke liye *Jolly LLB 2*, aur patriotic drama ke liye *Rustom*.""
+    },
+    {
+      ""user"": ""Main *Rustom* se shuru karunga."",
+      ""agent"": ""Aapko yeh film zaroor pasand aayegi. Enjoy the thrilling storyline!""
+    }
+  ],
+  ""movies"": [""Bhagam Bhag"", ""Bellbottom"", ""Jolly LLB 2"", ""Rustom""]
+}"
+126,"{
+  ""conversation"": [
+    {
+      ""user"": ""Hello!"",
+      ""agent"": ""Hello! Kaise hain aap? Aapka naam kya hai?""
+    },
+    {
+      ""user"": ""Mera naam Neha hai."",
+      ""agent"": ""Neha ji, aapko Akshay Kumar ki filmein pasand hain?""
+    },
+    {
+      ""user"": ""Haan, Akshay Kumar ki alag-alag filmein dekhne kaafi maza aata hai. Kya aap kuch recommend kar sakte hain?"",
+      ""agent"": ""Bilkul! Aap *Once Upon a Time in Mumbai Dobaara!*, *Ram Setu*, *Housefull 2*, aur *Desi Boyz* dekh sakti hain. Har ek film mein Akshay ka role aur genre unique hai.""
+    },
+    {
+      ""user"": ""Yeh roles kaise alag hain?"",
+      ""agent"": ""*Once Upon a Time in Mumbai Dobaara!* ek crime drama hai jisme Akshay ek ruthless gangster ka role play karte hain. Unka character Shoaib bhai bahut intense aur negative hai. *Ram Setu* mein unka role adventure-based hai.""
+    },
+    {
+      ""user"": ""Aur *Housefull 2* mein?"",
+      ""agent"": ""*Housefull 2* ek comedy film hai jisme Akshay ka character zyada humorous aur full of confusion hota hai. Yeh multi-starrer movie mein wo ek shadi-related problem mein phans jaate hain. *Desi Boyz* mein wo ek young man ka role karte hain jo financial problems ke wajah se phans jaata hai.""
+    },
+    {
+      ""user"": ""Akshay Kumar ne kitne variety roles kiye hain!"",
+      ""agent"": ""Haan, unki films kaafi diverse hain. Aap crime drama ke liye *Once Upon a Time in Mumbai Dobaara!*, adventure ke liye *Ram Setu*, light-hearted comedy ke liye *Housefull 2*, aur modern comedy ke liye *Desi Boyz* dekh sakti hain.""
+    },
+    {
+      ""user"": ""Main pehle *Ram Setu* dekhungi."",
+      ""agent"": ""Aapko yeh film adventure aur mythology ke elements ke saath zaroor pasand aayegi. Enjoy the journey!""
+    }
+  ],
+  ""movies"": [""Once Upon a Time in Mumbai Dobaara!"", ""Ram Setu"", ""Housefull 2"", ""Desi Boyz""]
+}"
