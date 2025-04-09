@@ -34,10 +34,6 @@ The system consists of five main components as shown in the architecture diagram
 
 The system employs spectral community detection to identify clusters of related entities in the knowledge graph. As shown in the visualization, the Bollywood movie domain naturally organizes into distinct communities (274 detected), often centered around genres, directors, or time periods. This community structure helps the recommender system identify patterns and make better suggestions.
 
-![Drama Community](quantum.png)
-
-The second visualization shows a focused view of the "Drama" community, highlighting how movies, actors, and directors in this genre are interconnected. These community insights power both the recommendation engine and the explanation generation.
-
 ## 🔬 Methodology
 
 ### Temporal Hypergraph
