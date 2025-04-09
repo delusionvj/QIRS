@@ -100,5 +100,5 @@ The system shows substantial improvements over traditional recommendation approa
 The quantum-inspired approach significantly enhances the system's ability to handle preference uncertainty and provide diverse recommendations, particularly valuable in conversational settings.
 
 ## 🔍 Example Conversation
-
+![Example conversation](conversation.png)
 
