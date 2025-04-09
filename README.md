@@ -30,7 +30,7 @@ The system consists of five main components as shown in the architecture diagram
 
 ## 📊 Community Structure
 
-![Community Structure Visualization](image2.png)
+![Community Structure Visualization](quantum-community-structure.png)
 
 The system employs spectral community detection to identify clusters of related entities in the knowledge graph. As shown in the visualization, the Bollywood movie domain naturally organizes into distinct communities (274 detected), often centered around genres, directors, or time periods. This community structure helps the recommender system identify patterns and make better suggestions.
 
