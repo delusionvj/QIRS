@@ -12,7 +12,7 @@ This work establishes a new paradigm for conversational recommenders that effect
 ![Example conversation](conversation.png)
 
 Alse, the translated version of following conversations: 
-![Translated English Conversation][conversation_eng.png]
+![Translated English Conversation](conversation_eng.png)
 
 ## 🌟 Key Features
 
