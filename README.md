@@ -8,6 +8,12 @@ QIRS (Quantum-Inspired Recommender System) is a novel conversational recommender
 
 This work establishes a new paradigm for conversational recommenders that effectively navigates the multidimensional space of user preferences while providing transparent, context-aware, and culturally nuanced recommendations.
 
+## 🔍 Example Conversation
+![Example conversation](conversation.png)
+
+Alse, the translated version of following conversations: 
+![Translated English Conversation][conversation_eng.png]
+
 ## 🌟 Key Features
 
 - **Quantum-Enhanced Recommendation Engine**: Uses principles like superposition and entanglement for better uncertainty handling and recommendation diversity
@@ -95,6 +101,5 @@ The system shows substantial improvements over traditional recommendation approa
 
 The quantum-inspired approach significantly enhances the system's ability to handle preference uncertainty and provide diverse recommendations, particularly valuable in conversational settings.
 
-## 🔍 Example Conversation
-![Example conversation](conversation.png)
+
 
