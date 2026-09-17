@@ -1,0 +1,39 @@
+# Unified config for the QIRS pipeline. Copy to config.local.yaml and fill in
+# your own paths/keys if you don't want to edit this file directly (it is
+# safe to commit since it holds no secrets by default).
+
+# ---- OpenAI access (required by graph.py / graph_text.py / conversation.py) ----
+# Prefer setting the OPENAI_API_KEY environment variable instead of pasting a
+# key here. If both are set, the value below wins.
+api_key: ""
+openai_api_key: ""
+
+# ---- Stage 1: knowledge graph construction (graph.py / graph_text.py) ----
+output_dir: "output_dir"
+movie_list: []          # empty = auto-discover from data/movies, or fall back to a default sample list
+users_file: "data/Input/users.csv"
+ratings_file: "data/Input/ratings_array.json"
+movie_mapping_file: "data/Input/movie_id_mapping.json"
+
+# ---- Stage 2: unified KG + communities + meta-paths (advance_kg.py) ----
+# Run via CLI instead: python src/advance_kg.py --graph <path> --output quantum_kg_output
+
+# ---- Stage 3: model training (Neural_ode.py / ode_quantum.py) ----
+# Run via CLI, e.g.:
+#   python src/Neural_ode.py --graphml quantum_kg_output/quantum_unified_graph.graphml --output output_advanced
+#   python src/ode_quantum.py --graphml quantum_kg_output/quantum_unified_graph.graphml --output output_enhanced --gpu
+
+# ---- Stage 4: conversational agent (conversation.py) ----
+model: "gpt-4o-mini"
+graph_path: "quantum_kg_output/quantum_unified_graph.pkl"
+textual_embeddings_path: "quantum_kg_output/textual_embeddings.pkl"
+neural_embeddings_path: "quantum_kg_output/quantum_combined_embeddings.pkl"
+model_path: "output_advanced/advanced_hybrid_model.pt"
+community_profiles_path: "quantum_kg_output/community_analysis/community_profiles.json"
+metapath_schemas_path: "quantum_kg_output/metapath_schemas.json"
+max_context_length: 10
+confidence_threshold: 0.7
+follow_up_threshold: 0.5
+temperature: 0.7
+language: "hinglish"
+data_dir: "data"

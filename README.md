@@ -1,6 +1,6 @@
 # QIRS: Quantum-Inspired Conversational Movie Recommender System
 
-![System Architecture](architecture.png)
+![System Architecture](assets/architecture.png)
 
 ## 📌 Overview
 
@@ -12,7 +12,7 @@ This work establishes a new paradigm for conversational recommenders that effect
 
 | Original | Translated |
 |:---:|:---:|
-| ![Original](conversation.png) | ![Translated](conversation_eng.png) |
+| ![Original](assets/conversation.png) | ![Translated](assets/conversation_eng.png) |
 
 
 ## 🌟 Key Features
@@ -37,7 +37,7 @@ The system consists of five main components as shown in the architecture diagram
 
 ## 📊 Community Structure
 
-![Community Structure Visualization](quantum_community_structure.png)
+![Community Structure Visualization](assets/quantum_community_structure.png)
 
 The system employs spectral community detection to identify clusters of related entities in the knowledge graph. As shown in the visualization, the Bollywood movie domain naturally organizes into distinct communities (274 detected), often centered around genres, directors, or time periods. This community structure helps the recommender system identify patterns and make better suggestions.
 
@@ -77,15 +77,24 @@ The system was evaluated using three datasets:
 
 ## 💻 Implementation
 
-The implementation consists of several core Python modules:
+```
+QIRS/
+├── config.yaml            # unified pipeline configuration
+├── requirements.txt
+├── src/
+│   ├── graph_text.py      # KG construction (textual embeddings only)
+│   ├── graph.py           # KG construction (enhanced, multi-modal embeddings)
+│   ├── advance_kg.py      # unified KG: community detection + meta-path reasoning
+│   ├── Neural_ode.py      # Neural ODE + quantum-inspired hybrid GNN (advanced variant)
+│   ├── ode_quantum.py     # Neural ODE + quantum-inspired hybrid GNN (lightweight variant)
+│   └── conversation.py    # conversational agent (entity/intent recognition, dialogue, recs)
+├── data/                  # sample datasets and pre-built graph exports
+├── docs/                  # paper (IEEE_TAI_CRS_Quantum.pdf)
+└── assets/                # architecture diagram and example screenshots
+```
 
-- **graph_text.py**: Constructs the knowledge graph with textual embeddings
-- **ode_rating3.py**: Implements the Neural ODE components for preference modeling
-- **advance_kg.py**: Provides advanced knowledge graph reasoning capabilities
-- **conversation2.py**: Implements the conversational agent interface
-
-Key dependencies include:
-- PyTorch and PyTorch Geometric
+Key dependencies (see `requirements.txt`):
+- PyTorch, PyTorch Geometric, torchdiffeq
 - NetworkX
 - NumPy and Pandas
 - Scikit-learn

@@ -1,0 +1,23 @@
+# Papers/manuscripts under review — never commit these
+*.pdf
+
+# Secrets / local overrides
+.env
+config.local.yaml
+
+# Python
+__pycache__/
+*.pyc
+
+# Pipeline outputs and caches (regenerated, not source)
+cache/
+output_dir*/
+output_advanced/
+output_enhanced/
+output_conv/
+quantum_kg_output/
+*.log
+
+# Model checkpoints
+*.pt
+*.pth

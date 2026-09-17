@@ -2240,9 +2240,9 @@ class BollywoodKGBuilder:
         self.data_dir = data_dir
         self.cache_dir = cache_dir
         self.output_dir = output_dir
-        self.users_file = "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/data/Input/users.csv"
-        self.ratings_file = "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/data/Input/ratings_array.json"
-        self.movie_mapping_file = "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/data/Input/movie_id_mapping.json"
+        self.users_file = users_file
+        self.ratings_file = ratings_file
+        self.movie_mapping_file = movie_mapping_file
 
         # Create directories
         os.makedirs(data_dir, exist_ok=True)
@@ -3636,10 +3636,10 @@ async def run_main():
     await run_kg_builder(
         api_key=api_key,
         movie_titles=movie_titles,
-        users_file="/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/data/Input/users.csv",
-        ratings_file="/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/data/Input/ratings_array.json",
-        output_dir="output_dir_text",
-        movie_mapping_file="/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/data/Input/movie_id_mapping.json"
+        users_file=config.get("users_file", "data/Input/users.csv"),
+        ratings_file=config.get("ratings_file", "data/Input/ratings_array.json"),
+        output_dir=config.get("output_dir", "output_dir_text"),
+        movie_mapping_file=config.get("movie_mapping_file", "data/Input/movie_id_mapping.json")
     )
 
 if __name__ == "__main__":

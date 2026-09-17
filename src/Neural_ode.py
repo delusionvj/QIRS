@@ -2089,49 +2089,53 @@ def run_advanced_model(
 
 
 # ------------------------------------------------------------------------------
-# Example usage in a notebook or script (Colab-friendly):
+# CLI entry point
 # ------------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    graphml_path             = "/content/drive/MyDrive/uploadfile/ODE_RATING/text_bollywood_kg_neural.graphml"
-    ratings_path             = "/content/drive/MyDrive/uploadfile/ODE_RATING/ratings_array.json"
-    movies_path              = "/content/drive/MyDrive/uploadfile/ODE_RATING/movie_id_mapping.json"
-    existing_embeddings_path = None
-    output_dir               = "/content/drive/MyDrive/uploadfile/ODE_RATING/output_advanced"
+    import argparse
 
-    hidden_dim           = 64
-    out_dim              = 32
-    time_steps           = 4
-    q_layers             = 4
-    epochs               = 100
-    batch_size           = 1
-    lr                   = 1e-4
-    dropout              = 0.15
-    use_hyperbolic       = True
-    curriculum_learning  = True
-    rating_mode          = "regression"
-    seed                 = 42
+    parser = argparse.ArgumentParser(description="Train Advanced Neural ODE + Quantum Hybrid Recommender")
+    parser.add_argument("--graphml", type=str, required=True, help="Path to GraphML file")
+    parser.add_argument("--output", type=str, default="./output_advanced", help="Output directory")
+    parser.add_argument("--ratings", type=str, default=None, help="Path to ratings JSON file (optional)")
+    parser.add_argument("--movies", type=str, default=None, help="Path to movie ID mapping file (optional)")
+    parser.add_argument("--existing-embeddings", type=str, default=None, help="Path to precomputed embeddings (optional)")
+    parser.add_argument("--hidden-dim", type=int, default=64)
+    parser.add_argument("--out-dim", type=int, default=32)
+    parser.add_argument("--time-steps", type=int, default=4)
+    parser.add_argument("--q-layers", type=int, default=4)
+    parser.add_argument("--epochs", type=int, default=100)
+    parser.add_argument("--batch-size", type=int, default=1)
+    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--dropout", type=float, default=0.15)
+    parser.add_argument("--no-hyperbolic", action="store_true", help="Disable hyperbolic embeddings")
+    parser.add_argument("--no-curriculum", action="store_true", help="Disable curriculum learning")
+    parser.add_argument("--rating-mode", type=str, default="regression", choices=["regression", "classification"])
+    parser.add_argument("--seed", type=int, default=42)
+
+    args = parser.parse_args()
 
     config = {
-        "epochs": epochs,
-        "hidden_dim": hidden_dim,
-        "out_dim": out_dim,
-        "time_steps": time_steps,
-        "q_layers": q_layers,
-        "dropout": dropout,
-        "lr": lr,
-        "batch_size": batch_size,
-        "use_hyperbolic": use_hyperbolic,
-        "curriculum_learning": curriculum_learning,
-        "rating_mode": rating_mode,
-        "seed": seed
+        "epochs": args.epochs,
+        "hidden_dim": args.hidden_dim,
+        "out_dim": args.out_dim,
+        "time_steps": args.time_steps,
+        "q_layers": args.q_layers,
+        "dropout": args.dropout,
+        "lr": args.lr,
+        "batch_size": args.batch_size,
+        "use_hyperbolic": not args.no_hyperbolic,
+        "curriculum_learning": not args.no_curriculum,
+        "rating_mode": args.rating_mode,
+        "seed": args.seed
     }
 
     run_advanced_model(
-        graphml_path=graphml_path,
-        output_dir=output_dir,
-        ratings_path=ratings_path,
-        movies_path=movies_path,
-        existing_embeddings_path=existing_embeddings_path,
+        graphml_path=args.graphml,
+        output_dir=args.output,
+        ratings_path=args.ratings,
+        movies_path=args.movies,
+        existing_embeddings_path=args.existing_embeddings,
         config=config
     )

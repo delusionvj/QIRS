@@ -37,14 +37,14 @@ logger = logging.getLogger("conversational_agent")
 class Config:
     def __init__(self, config_path=None):
         self.config = {
-            "openai_api_key": "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",
+            "openai_api_key": os.environ.get("OPENAI_API_KEY", ""),
             "model": "gpt-4o-mini",
-            "graph_path": "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/quantum_kg_output/quantum_unified_graph.pkl",
-            "textual_embeddings_path": "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/quantum_kg_output/textual_embeddings.pkl",
-            "neural_embeddings_path": "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/quantum_kg_output/quantum_combined_embeddings.pkl",
-            "model_path": "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/quantum_kg_output/quantum_unified_model.pt",
-            "community_profiles_path": "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/quantum_kg_output/quantum_community_profiles.json",
-            "metapath_schemas_path": "/Users/amanvaibhavjha/Desktop/CRS/CRS_FINAL/quantum_kg_output/quantum_metapath_schemas.json",
+            "graph_path": "quantum_kg_output/quantum_unified_graph.pkl",
+            "textual_embeddings_path": "quantum_kg_output/textual_embeddings.pkl",
+            "neural_embeddings_path": "quantum_kg_output/quantum_combined_embeddings.pkl",
+            "model_path": "quantum_kg_output/quantum_unified_model.pt",
+            "community_profiles_path": "quantum_kg_output/quantum_community_profiles.json",
+            "metapath_schemas_path": "quantum_kg_output/quantum_metapath_schemas.json",
             "max_context_length": 10,
             "confidence_threshold": 0.7,
             "follow_up_threshold": 0.5,
