@@ -54,18 +54,15 @@ python src/graph_text.py                # textual-embeddings-only variant
 python src/advance_kg.py --graph output_dir_text/text_bollywood_kg.pkl --output quantum_kg_output
 
 # 3. Train the Neural ODE + quantum-inspired hybrid GNN
-python src/ode_quantum.py --graphml <path_to>.graphml --output output_enhanced --gpu
+#    (graph_text.py/graph.py already write a *_neural.graphml alongside the .pkl in step 1;
+#     advance_kg.py also writes quantum_unified_graph.graphml in step 2 — use either.)
+python src/ode_quantum.py --graphml output_dir_text/text_bollywood_kg_neural.graphml --output output_enhanced --gpu
 # or the heavier variant:
-python src/Neural_ode.py --graphml <path_to>.graphml --output output_advanced
+python src/Neural_ode.py --graphml output_dir_text/text_bollywood_kg_neural.graphml --output output_advanced
 
 # 4. Run the conversational agent
 python src/conversation.py --config config.yaml
 ```
-
-> **Note:** stage 3 expects a `.graphml` export of the graph built in stages 1–2. The current
-> knowledge-graph builders save `.pkl`/JSON by default, so you'll need to add a
-> `networkx.write_graphml(...)` export step (or adapt the loader) before training — this is a known
-> gap in the current pipeline, not yet automated end-to-end.
 
 ## 🏗️ System Architecture
 

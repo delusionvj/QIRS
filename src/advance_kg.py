@@ -1163,14 +1163,16 @@ class EnhancedCommunityDetector:
             im = infomap.Infomap("--two-level")
             
             # Add nodes and edges
+            node_to_idx = {}
             for i, node in enumerate(self.graph.nodes()):
                 im.add_node(i)
-            
+                node_to_idx[node] = i
+
             # Add edges with weights if available
             for u, v, data in self.graph.edges(data=True):
                 # Get node indices
-                u_idx = list(self.graph.nodes()).index(u)
-                v_idx = list(self.graph.nodes()).index(v)
+                u_idx = node_to_idx[u]
+                v_idx = node_to_idx[v]
                 
                 # Get weight if available
                 weight = data.get("weight", 1.0)
@@ -2752,7 +2754,7 @@ class QuantumEnhancedRecommender:
         # Ensure communities are detected
         
         self.community_detector.detect_communities(
-            method="louvian",        # More reliable method
+            method="louvain",        # More reliable method
             resolution=0.7,          # Lower value for larger communities
             min_size=5,              # Minimum community size
             hierarchical=True,       # Enable hierarchical detection
@@ -2938,10 +2940,11 @@ class QuantumEnhancedRecommender:
                     
                     # Convert to tensor
                     x = torch.tensor(node_features, dtype=torch.float)
-                    
+
                     # Get node indices
-                    user_idx = list(self.graph.nodes()).index(user_id)
-                    movie_idx = list(self.graph.nodes()).index(movie)
+                    node_to_idx = {node: i for i, node in enumerate(self.graph.nodes())}
+                    user_idx = node_to_idx[user_id]
+                    movie_idx = node_to_idx[movie]
                     
                     # Generate embeddings
                     with torch.no_grad():
@@ -3757,7 +3760,7 @@ class UnifiedQuantumKG:
         
         
         self.community_detector.detect_communities(
-            method="louvian",        # More reliable method
+            method="louvain",        # More reliable method
             resolution=0.7,          # Lower value for larger communities
             min_size=5,              # Minimum community size
             hierarchical=True,       # Enable hierarchical detection
@@ -3786,6 +3789,7 @@ class UnifiedQuantumKG:
             # Extract node features
             node_features = []
             node_types = []
+            node_to_idx = {node: i for i, node in enumerate(self.graph.nodes())}
             for node in self.graph.nodes():
                 # Use embeddings as features if available
                 if node in self.combined_embeddings:
@@ -3826,9 +3830,9 @@ class UnifiedQuantumKG:
             
             for u, v, data in self.graph.edges(data=True):
                 # Get node indices
-                u_idx = list(self.graph.nodes()).index(u)
-                v_idx = list(self.graph.nodes()).index(v)
-                
+                u_idx = node_to_idx[u]
+                v_idx = node_to_idx[v]
+
                 # Add edge
                 edge_list.append([u_idx, v_idx])
                 
@@ -4025,7 +4029,7 @@ class UnifiedQuantumKG:
             
             community_data[str(comm_id)] = serializable_profile
         
-        with open('output.json', 'w') as f:
+        with open(community_path, 'w') as f:
             json.dump(community_data, f, indent=2, cls=NumpyEncoder)
         
         # Save meta-path schemas

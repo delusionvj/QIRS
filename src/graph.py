@@ -2003,7 +2003,9 @@ class TrainableGraphTransformer(nn.Module):
             activation: Activation function ('relu', 'gelu', or 'silu')
         """
         super(TrainableGraphTransformer, self).__init__()
-        
+
+        self.logger = logging.getLogger("transformer")
+
         self.in_dim = in_dim
         self.hidden_dim = hidden_dim
         self.out_dim = out_dim
@@ -2060,8 +2062,7 @@ class TrainableGraphTransformer(nn.Module):
         
         # Initialize weights
         self._init_weights()
-        
-        self.logger = logging.getLogger("transformer")
+
         self.logger.info(f"Initialized Trainable Graph Transformer with {num_layers} layers, {num_heads} heads")
     
     def _init_weights(self):
@@ -3206,7 +3207,6 @@ class AdvancedEmbeddingGenerator:
         self.logger.info(f"Generating structural embeddings for {len(graph.nodes())} nodes")
         
         # Prepare node features (from semantic embeddings)
-        print(type(nodes_by_type))
         heterogeneous = nodes_by_type is not None
         
         try:
@@ -4238,7 +4238,7 @@ class EnhancedCommunityDetector:
             # Run hierarchical clustering
             clustering = AgglomerativeClustering(
                 n_clusters=n_clusters,
-                affinity="precomputed",
+                metric="precomputed",
                 linkage="average"
             )
             cluster_labels = clustering.fit_predict(distance_matrix)
@@ -5986,7 +5986,6 @@ class EnhancedBollywoodKGBuilder:
                 for node_id, data in self.graph.nodes(data=True):
                     if node_id in self.embeddings and "year" in data:
                         temporal_entities[node_id] = self.embeddings[node_id]
-                print(len(self.embeddings))
                 # Initialize ODE layer in hypergraph
                 if temporal_entities:
                     self.logger.info(f"Generating temporal embeddings for {len(temporal_entities)} nodes")

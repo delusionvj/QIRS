@@ -29,8 +29,8 @@ graph_path: "quantum_kg_output/quantum_unified_graph.pkl"
 textual_embeddings_path: "quantum_kg_output/textual_embeddings.pkl"
 neural_embeddings_path: "quantum_kg_output/quantum_combined_embeddings.pkl"
 model_path: "output_advanced/advanced_hybrid_model.pt"
-community_profiles_path: "quantum_kg_output/community_analysis/community_profiles.json"
-metapath_schemas_path: "quantum_kg_output/metapath_schemas.json"
+community_profiles_path: "quantum_kg_output/quantum_community_profiles.json"
+metapath_schemas_path: "quantum_kg_output/quantum_metapath_schemas.json"
 max_context_length: 10
 confidence_threshold: 0.7
 follow_up_threshold: 0.5

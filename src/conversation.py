@@ -2287,9 +2287,9 @@ class BollywoodConversationalAgent:
             
         except ImportError:
             self.logger.warning("Could not import AdvancedMetaPathReasoner, using simplified version")
-        
-        # Simplified version from GraphReasoner
-        return self.graph_reasoner._create_mock_meta_path_reasoner()
+
+        # GraphReasoner creates its own mock reasoner when None is passed in
+        return None
     
     def _initialize_community_detector(self):
         """Initialize community detector"""
@@ -2333,8 +2333,8 @@ class BollywoodConversationalAgent:
             except Exception as e:
                 self.logger.error(f"Error loading community profiles: {str(e)}")
         
-        # Simplified version from GraphReasoner
-        return self.graph_reasoner._create_mock_community_detector()
+        # GraphReasoner creates its own mock detector when None is passed in
+        return None
     
     def process_message(self, user_id, message):
         """Process a user message and generate a response"""
@@ -2467,10 +2467,10 @@ class BollywoodConversationalAgent:
         return False
 
 # Command line interface for the agent
-def run_cli():
+def run_cli(config_path="config.yaml"):
     """Run the agent in command line interface mode"""
     # Load configuration
-    config = Config("config.yaml")
+    config = Config(config_path)
     
     # Create agent
     agent = BollywoodConversationalAgent(config)
@@ -2512,6 +2512,9 @@ if __name__ == "__main__":
     parser.add_argument("--port", type=int, default=5000, help="Port for web interface")
     
     args = parser.parse_args()
-    
-    
-    run_cli()
+
+    if args.web:
+        print("Error: --web is not implemented (no web server code exists in this module). "
+              "Falling back to the CLI interface.")
+
+    run_cli(config_path=args.config)
