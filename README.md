@@ -45,14 +45,24 @@ format (see [`src/prepare_movielens.py`](src/prepare_movielens.py) for the exact
 If you don't have your own users/ratings data, convert MovieLens-100K into the required format:
 
 ```bash
-# Download & unzip https://grouplens.org/datasets/movielens/100k/ first, then:
-python src/prepare_movielens.py --ml-100k-dir /path/to/ml-100k --output-dir data/Input
+# Auto-downloads MovieLens-100K into ./ml-100k if it's not already there:
+python src/prepare_movielens.py --output-dir data/Input --max-movies 50 --max-users 100
 ```
 
+(Pass `--ml-100k-dir /some/path` instead if you've already downloaded and unzipped
+[the dataset](https://grouplens.org/datasets/movielens/100k/) yourself.)
+
 This writes `data/Input/users.csv`, `data/Input/ratings_array.json`, and
-`data/Input/movie_id_mapping.json` — exactly the paths `config.yaml` already points at — plus a
-`data/Input/movie_titles.json` list to copy into `config.yaml`'s `movie_list` (each title triggers
-an OpenAI API call to enrich it, so start with a small slice via `--max-movies`/`--max-users`).
+`data/Input/movie_id_mapping.json` — exactly the paths `config.yaml` already points at — plus
+`data/Input/movie_titles.json`, a plain list of the movie titles included. `--max-movies`/`--max-users`
+keep a first run small and cheap, since each movie triggers an OpenAI API call downstream to enrich it.
+
+Then populate `config.yaml`'s `movie_list` from those titles (see
+[`src/update_movie_list.py`](src/update_movie_list.py) for an optional local-LLM title-cleaning flag):
+
+```bash
+python src/update_movie_list.py --max-movies 50
+```
 
 ### Running the pipeline
 
