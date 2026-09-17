@@ -25,6 +25,48 @@ This work establishes a new paradigm for conversational recommenders that effect
 - **Multilingual Conversation Support**: Handles conversations in English and Hinglish
 - **Contextual Understanding**: Maintains conversation context for personalized recommendations
 
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+export OPENAI_API_KEY="sk-..."   # required for graph construction and the conversational agent
+```
+
+### Configuration
+
+All stages read from a single [`config.yaml`](config.yaml) at the repo root (paths are relative to the
+directory you run commands from — always run from the repo root). Edit it to point at your own
+`users.csv` / `ratings_array.json` / `movie_id_mapping.json` if you're not using the sample data
+in `data/`.
+
+### Running the pipeline
+
+The pipeline runs in four stages; each stage's output feeds the next one:
+
+```bash
+# 1. Build the temporal knowledge graph from raw movie/user/rating data
+python src/graph_text.py                # textual-embeddings-only variant
+# or: python src/graph.py               # enhanced, multi-modal variant
+
+# 2. Unify the graph with community detection + meta-path reasoning
+python src/advance_kg.py --graph output_dir_text/text_bollywood_kg.pkl --output quantum_kg_output
+
+# 3. Train the Neural ODE + quantum-inspired hybrid GNN
+python src/ode_quantum.py --graphml <path_to>.graphml --output output_enhanced --gpu
+# or the heavier variant:
+python src/Neural_ode.py --graphml <path_to>.graphml --output output_advanced
+
+# 4. Run the conversational agent
+python src/conversation.py --config config.yaml
+```
+
+> **Note:** stage 3 expects a `.graphml` export of the graph built in stages 1–2. The current
+> knowledge-graph builders save `.pkl`/JSON by default, so you'll need to add a
+> `networkx.write_graphml(...)` export step (or adapt the loader) before training — this is a known
+> gap in the current pipeline, not yet automated end-to-end.
+
 ## 🏗️ System Architecture
 
 The system consists of five main components as shown in the architecture diagram:
@@ -89,7 +131,6 @@ QIRS/
 │   ├── ode_quantum.py     # Neural ODE + quantum-inspired hybrid GNN (lightweight variant)
 │   └── conversation.py    # conversational agent (entity/intent recognition, dialogue, recs)
 ├── data/                  # sample datasets and pre-built graph exports
-├── docs/                  # paper (IEEE_TAI_CRS_Quantum.pdf)
 └── assets/                # architecture diagram and example screenshots
 ```
 
