@@ -37,9 +37,22 @@ export OPENAI_API_KEY="sk-..."   # required for graph construction and the conve
 ### Configuration
 
 All stages read from a single [`config.yaml`](config.yaml) at the repo root (paths are relative to the
-directory you run commands from — always run from the repo root). Edit it to point at your own
-`users.csv` / `ratings_array.json` / `movie_id_mapping.json` if you're not using the sample data
-in `data/`.
+directory you run commands from — always run from the repo root).
+
+`users_file` / `ratings_file` / `movie_mapping_file` need real user/ratings data in a specific
+format (see [`src/prepare_movielens.py`](src/prepare_movielens.py) for the exact schema). 
+
+If you don't have your own users/ratings data, convert MovieLens-100K into the required format:
+
+```bash
+# Download & unzip https://grouplens.org/datasets/movielens/100k/ first, then:
+python src/prepare_movielens.py --ml-100k-dir /path/to/ml-100k --output-dir data/Input
+```
+
+This writes `data/Input/users.csv`, `data/Input/ratings_array.json`, and
+`data/Input/movie_id_mapping.json` — exactly the paths `config.yaml` already points at — plus a
+`data/Input/movie_titles.json` list to copy into `config.yaml`'s `movie_list` (each title triggers
+an OpenAI API call to enrich it, so start with a small slice via `--max-movies`/`--max-users`).
 
 ### Running the pipeline
 
@@ -126,7 +139,8 @@ QIRS/
 │   ├── advance_kg.py      # unified KG: community detection + meta-path reasoning
 │   ├── Neural_ode.py      # Neural ODE + quantum-inspired hybrid GNN (advanced variant)
 │   ├── ode_quantum.py     # Neural ODE + quantum-inspired hybrid GNN (lightweight variant)
-│   └── conversation.py    # conversational agent (entity/intent recognition, dialogue, recs)
+│   ├── conversation.py    # conversational agent (entity/intent recognition, dialogue, recs)
+│   └── prepare_movielens.py  # converts raw MovieLens-100K into the users/ratings/mapping input format
 ├── data/                  # sample datasets and pre-built graph exports
 └── assets/                # architecture diagram and example screenshots
 ```
