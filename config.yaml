@@ -5,7 +5,6 @@
 # ---- OpenAI access (required by graph.py / graph_text.py / conversation.py) ----
 # Prefer setting the OPENAI_API_KEY environment variable instead of pasting a
 # key here. If both are set, the value below wins.
-api_key: ""
 openai_api_key: ""
 
 # ---- Stage 1: knowledge graph construction (graph.py / graph_text.py) ----

@@ -3425,7 +3425,7 @@ async def run_main():
     else:
         # Default configuration
         config = {
-            "api_key": os.environ.get("OPENAI_API_KEY", ""),
+            "openai_api_key": os.environ.get("OPENAI_API_KEY", ""),
             "output_dir": "text_output",
             "movie_list": [],
             "users_file": "users.csv",
@@ -3434,7 +3434,7 @@ async def run_main():
         }
     
     # Check for API key
-    api_key = config.get("api_key")
+    api_key = config.get("openai_api_key")
     if not api_key:
         print("Error: OpenAI API key not provided in config or environment")
         return
