@@ -168,8 +168,8 @@ The system shows substantial improvements over traditional recommendation approa
 
 - **12.7% improvement in RMSE** and **15.3% improvement in MAE** on the FlickScore dataset
 - **10-15% gain in NDCG and recall** on MovieLens-100K
-- **27.6% increase in user satisfaction** in user studies
-- **31.2% improvement in recommendation diversity**
+- **27.6% increase in user satisfaction** (BollyCRS user study)
+- **31.2% improvement in recommendation diversity** (FlickScore, ILD@10)
 
 The quantum-inspired approach significantly enhances the system's ability to handle preference uncertainty and provide diverse recommendations, particularly valuable in conversational settings.
 
