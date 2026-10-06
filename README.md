@@ -1,6 +1,6 @@
 # QIRS: Quantum-Inspired Conversational Movie Recommender System
 
-![System Architecture](assets/Quantum_CRS.pdf)
+![System Architecture](assets/Quantum_CRS.png)
 
 ## 📌 Overview
 
